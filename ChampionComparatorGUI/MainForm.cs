@@ -4,7 +4,6 @@ using System.Windows.Forms;
 using System.IO;
 using System.Net;
 using Newtonsoft.Json;
-using System.Diagnostics;
 
 namespace ChampionComparatorGUI
 {
@@ -12,8 +11,9 @@ namespace ChampionComparatorGUI
     {
         public Main()
         {
+			// Set the latest patch number on the corresponding label
             InitializeComponent();
-            PatchLbl.Text = PatchLbl.Text + Patch.GetPatch();
+            PatchLbl.Text += Patch.GetPatch();
         }
 
         private void BtnConfirm_Click(object sender, EventArgs e)
@@ -21,13 +21,17 @@ namespace ChampionComparatorGUI
 			// Show champ names above the results when "Confirm" is clicked
             string ch1 = FirstChampTxt.Text;
             string ch2 = SecondChampTxt.Text;
-            string champ1 = (ch1.ToLower().Contains("mundo") ? "DrMundo" : (ch1.ToLower().Contains("sol") ? "AurelionSol" : (ch1.ToLower().Contains("jarvan") ? "JarvanIV" : ((!ch1.ToLower().Equals("kai'sa") && !ch1.ToLower().Equals("kai sa")) ? (ch1.ToLower().Contains("kha") ? "Khazix" : (ch1.ToLower().Contains("kog") ? "KogMaw" : ((!ch1.ToLower().Equals("leesin") && !ch1.ToLower().Equals("lee sin")) ? (ch1.ToLower().Contains("master") ? "MasterYi" : (ch1.ToLower().Contains("miss") ? "MissFortune" : (ch1.ToLower().Contains("wukong") ? "MonkeyKing" : ((!ch1.ToLower().Equals("rek'sai") && !ch1.ToLower().Equals("reksai") && !ch1.ToLower().Equals("rek sai")) ? (ch1.ToLower().Contains("tahm") ? "TahmKench" : (ch1.ToLower().Contains("twisted") ? "TwistedFate" : ((ch1.ToLower().Equals("vel'koz") || ch1.ToLower().Equals("vel koz")) ? "Velkoz" : (ch1.ToLower().Contains("xin") ? "XinZhao" : (ch1.ToLower().Contains("pasquetto") ? "Shaco" : ((!ch1.Contains(" ")) ? (char.ToUpper(ch1[0]) + ch1.Substring(1).ToLower()) : (char.ToUpper(ch1[0]) + ch1.Substring(1).ToLower().TrimEnd(' ')))))))) : "RekSai")))) : "LeeSin"))) : "Kaisa"))));
-            string champ2 = (ch2.ToLower().Contains("mundo") ? "DrMundo" : (ch2.ToLower().Contains("sol") ? "AurelionSol" : (ch2.ToLower().Contains("jarvan") ? "JarvanIV" : ((!ch2.ToLower().Equals("kai'sa") && !ch2.ToLower().Equals("kai sa")) ? (ch2.ToLower().Contains("kha") ? "Khazix" : (ch2.ToLower().Contains("kog") ? "KogMaw" : ((!ch2.ToLower().Equals("leesin") && !ch2.ToLower().Equals("lee sin")) ? (ch2.ToLower().Contains("master") ? "MasterYi" : (ch2.ToLower().Contains("miss") ? "MissFortune" : (ch2.ToLower().Contains("wukong") ? "MonkeyKing" : ((!ch2.ToLower().Equals("rek'sai") && !ch2.ToLower().Equals("reksai") && !ch2.ToLower().Equals("rek sai")) ? (ch2.ToLower().Contains("tahm") ? "TahmKench" : (ch2.ToLower().Contains("twisted") ? "TwistedFate" : ((ch2.ToLower().Equals("vel'koz") || ch2.ToLower().Equals("vel koz")) ? "Velkoz" : (ch2.ToLower().Contains("xin") ? "XinZhao" : (ch2.ToLower().Contains("pasquetto") ? "Shaco" : ((!ch2.Contains(" ")) ? (char.ToUpper(ch2[0]) + ch2.Substring(1).ToLower()) : (char.ToUpper(ch2[0]) + ch2.Substring(1).ToLower().TrimEnd(' ')))))))) : "RekSai")))) : "LeeSin"))) : "Kaisa"))));
+			/* Store lowercase names in separate variables so I can show the
+			 * original names in the form */
+            string champ1 = ch1.ToLower().Contains("mundo") ? "DrMundo" : (ch1.ToLower().Contains("sol") ? "AurelionSol" : (ch1.ToLower().Contains("jarvan") ? "JarvanIV" : ((!ch1.ToLower().Equals("kai'sa") && !ch1.ToLower().Equals("kai sa")) ? (ch1.ToLower().Contains("kha") ? "Khazix" : (ch1.ToLower().Contains("kog") ? "KogMaw" : ((!ch1.ToLower().Equals("leesin") && !ch1.ToLower().Equals("lee sin")) ? (ch1.ToLower().Contains("master") ? "MasterYi" : (ch1.ToLower().Contains("miss") ? "MissFortune" : (ch1.ToLower().Contains("wukong") ? "MonkeyKing" : ((!ch1.ToLower().Equals("rek'sai") && !ch1.ToLower().Equals("reksai") && !ch1.ToLower().Equals("rek sai")) ? (ch1.ToLower().Contains("tahm") ? "TahmKench" : (ch1.ToLower().Contains("twisted") ? "TwistedFate" : ((ch1.ToLower().Equals("vel'koz") || ch1.ToLower().Equals("vel koz")) ? "Velkoz" : (ch1.ToLower().Contains("xin") ? "XinZhao" : (ch1.ToLower().Contains("pasquetto") ? "Shaco" : ((!ch1.Contains(" ")) ? (char.ToUpper(ch1[0]) + ch1.Substring(1).ToLower()) : (char.ToUpper(ch1[0]) + ch1.Substring(1).ToLower().TrimEnd(' ')))))))) : "RekSai")))) : "LeeSin"))) : "Kaisa")));
+            string champ2 = ch2.ToLower().Contains("mundo") ? "DrMundo" : (ch2.ToLower().Contains("sol") ? "AurelionSol" : (ch2.ToLower().Contains("jarvan") ? "JarvanIV" : ((!ch2.ToLower().Equals("kai'sa") && !ch2.ToLower().Equals("kai sa")) ? (ch2.ToLower().Contains("kha") ? "Khazix" : (ch2.ToLower().Contains("kog") ? "KogMaw" : ((!ch2.ToLower().Equals("leesin") && !ch2.ToLower().Equals("lee sin")) ? (ch2.ToLower().Contains("master") ? "MasterYi" : (ch2.ToLower().Contains("miss") ? "MissFortune" : (ch2.ToLower().Contains("wukong") ? "MonkeyKing" : ((!ch2.ToLower().Equals("rek'sai") && !ch2.ToLower().Equals("reksai") && !ch2.ToLower().Equals("rek sai")) ? (ch2.ToLower().Contains("tahm") ? "TahmKench" : (ch2.ToLower().Contains("twisted") ? "TwistedFate" : ((ch2.ToLower().Equals("vel'koz") || ch2.ToLower().Equals("vel koz")) ? "Velkoz" : (ch2.ToLower().Contains("xin") ? "XinZhao" : (ch2.ToLower().Contains("pasquetto") ? "Shaco" : ((!ch2.Contains(" ")) ? (char.ToUpper(ch2[0]) + ch2.Substring(1).ToLower()) : (char.ToUpper(ch2[0]) + ch2.Substring(1).ToLower().TrimEnd(' ')))))))) : "RekSai")))) : "LeeSin"))) : "Kaisa")));
+			// Set champion name labels and show them
 			FirstChampResultsLbl.Text = ch1;
 			FirstChampResultsLbl.Visible = true;
 			SecondChampResultsLbl.Text = ch2;
 			SecondChampResultsLbl.Visible = true;
 
+			// idk what this does ¯\_(ツ)_/¯
 			Champion1.Root root = JsonConvert.DeserializeObject<Champion1.Root>(new StreamReader(WebRequest.Create("http://ddragon.leagueoflegends.com/cdn/" + Patch.GetPatch() + "/data/en_US/champion/" + champ1 + ".json").GetResponse().GetResponseStream()).ReadToEnd());
 			List<Champion1.Spell> spells = root.data[champ1].spells;
 			Champion2.Root root2 = JsonConvert.DeserializeObject<Champion2.Root>(new StreamReader(WebRequest.Create("http://ddragon.leagueoflegends.com/cdn/" + Patch.GetPatch() + "/data/en_US/champion/" + champ2 + ".json").GetResponse().GetResponseStream()).ReadToEnd());
@@ -48,7 +52,8 @@ namespace ChampionComparatorGUI
 				Champion1.Spell spell7 = spells[3];
 				Champion2.Spell spell8 = spells2[3];
 
-				// Oh boy
+				/* Store stats for both champs in a string array.
+				 * I died inside to do this */
 				string[] stats = new string[46];
 				stats[0] = value.stats.hp.ToString();
 				stats[1] = value2.stats.hp.ToString();
@@ -97,8 +102,10 @@ namespace ChampionComparatorGUI
 				stats[44] = spell7.cooldownBurn;
 				stats[45] = spell8.cooldownBurn;
 
+				// Create an array to store stats labels
 				Label[] labels = new Label[46];
 
+				// Set every stat label and show it
 				int i = 0;
 				foreach (Control c in this.Controls)
 				{

@@ -66,52 +66,52 @@ namespace ChampionComparatorGUI
             this.CoolStatsLbl = new System.Windows.Forms.Label();
             this.FirstChampResultsLbl = new System.Windows.Forms.Label();
             this.SecondChampResultsLbl = new System.Windows.Forms.Label();
-            this.Reshp2Lbl = new System.Windows.Forms.Label();
-            this.Reshp1Lbl = new System.Windows.Forms.Label();
-            this.Reshpperlv1Lbl = new System.Windows.Forms.Label();
-            this.Resarmor1Lbl = new System.Windows.Forms.Label();
-            this.Resatkspdperlv1Lbl = new System.Windows.Forms.Label();
-            this.Resatkspd1Lbl = new System.Windows.Forms.Label();
-            this.Resatkrange1Lbl = new System.Windows.Forms.Label();
-            this.Resatkdmgperlv1Lbl = new System.Windows.Forms.Label();
-            this.Resatkdmg1Lbl = new System.Windows.Forms.Label();
-            this.Resmanaregenperlv1Lbl = new System.Windows.Forms.Label();
-            this.Resmanaregen1Lbl = new System.Windows.Forms.Label();
-            this.Resmanaperlv1Lbl = new System.Windows.Forms.Label();
-            this.Resmana1Lbl = new System.Windows.Forms.Label();
-            this.Restype1Lbl = new System.Windows.Forms.Label();
-            this.Reshpregenperlv1Lbl = new System.Windows.Forms.Label();
-            this.Reshpregen1Lbl = new System.Windows.Forms.Label();
-            this.Resrcool1Lbl = new System.Windows.Forms.Label();
-            this.Resecool1Lbl = new System.Windows.Forms.Label();
-            this.Reswcool1Lbl = new System.Windows.Forms.Label();
-            this.Resqcool1Lbl = new System.Windows.Forms.Label();
-            this.Resmovespd1Lbl = new System.Windows.Forms.Label();
-            this.Resspellblkperlv1Lbl = new System.Windows.Forms.Label();
-            this.Resspellblk1Lbl = new System.Windows.Forms.Label();
-            this.Resarmorperlv1Lbl = new System.Windows.Forms.Label();
-            this.Resarmorperlv2Lbl = new System.Windows.Forms.Label();
-            this.Resspellblk2Lbl = new System.Windows.Forms.Label();
-            this.Resspellblkperlv2Lbl = new System.Windows.Forms.Label();
-            this.Resmovespd2Lbl = new System.Windows.Forms.Label();
-            this.Resqcool2Lbl = new System.Windows.Forms.Label();
-            this.Reswcool2Lbl = new System.Windows.Forms.Label();
-            this.Resecool2Lbl = new System.Windows.Forms.Label();
-            this.Resrcool2Lbl = new System.Windows.Forms.Label();
-            this.Reshpregen2Lbl = new System.Windows.Forms.Label();
-            this.Reshpregenperlv2Lbl = new System.Windows.Forms.Label();
-            this.Restype2Lbl = new System.Windows.Forms.Label();
-            this.Resmana2Lbl = new System.Windows.Forms.Label();
-            this.Resmanaperlv2Lbl = new System.Windows.Forms.Label();
-            this.Resmanaregen2Lbl = new System.Windows.Forms.Label();
-            this.Resmanaregenperlv2Lbl = new System.Windows.Forms.Label();
-            this.Resatkdmg2Lbl = new System.Windows.Forms.Label();
-            this.Resatkdmgperlv2Lbl = new System.Windows.Forms.Label();
-            this.Resatkrange2Lbl = new System.Windows.Forms.Label();
-            this.Resatkspd2Lbl = new System.Windows.Forms.Label();
-            this.Resatkspdperlv2Lbl = new System.Windows.Forms.Label();
-            this.Resarmor2Lbl = new System.Windows.Forms.Label();
-            this.Reshpperlv2Lbl = new System.Windows.Forms.Label();
+            this.Res46 = new System.Windows.Forms.Label();
+            this.Res45 = new System.Windows.Forms.Label();
+            this.Res44 = new System.Windows.Forms.Label();
+            this.Res43 = new System.Windows.Forms.Label();
+            this.Res42 = new System.Windows.Forms.Label();
+            this.Res41 = new System.Windows.Forms.Label();
+            this.Res40 = new System.Windows.Forms.Label();
+            this.Res39 = new System.Windows.Forms.Label();
+            this.Res38 = new System.Windows.Forms.Label();
+            this.Res37 = new System.Windows.Forms.Label();
+            this.Res36 = new System.Windows.Forms.Label();
+            this.Res35 = new System.Windows.Forms.Label();
+            this.Res34 = new System.Windows.Forms.Label();
+            this.Res33 = new System.Windows.Forms.Label();
+            this.Res32 = new System.Windows.Forms.Label();
+            this.Res31 = new System.Windows.Forms.Label();
+            this.Res30 = new System.Windows.Forms.Label();
+            this.Res29 = new System.Windows.Forms.Label();
+            this.Res28 = new System.Windows.Forms.Label();
+            this.Res27 = new System.Windows.Forms.Label();
+            this.Res26 = new System.Windows.Forms.Label();
+            this.Res25 = new System.Windows.Forms.Label();
+            this.Res24 = new System.Windows.Forms.Label();
+            this.Res23 = new System.Windows.Forms.Label();
+            this.Res1 = new System.Windows.Forms.Label();
+            this.Res2 = new System.Windows.Forms.Label();
+            this.Res3 = new System.Windows.Forms.Label();
+            this.Res4 = new System.Windows.Forms.Label();
+            this.Res5 = new System.Windows.Forms.Label();
+            this.Res6 = new System.Windows.Forms.Label();
+            this.Res7 = new System.Windows.Forms.Label();
+            this.Res8 = new System.Windows.Forms.Label();
+            this.Res9 = new System.Windows.Forms.Label();
+            this.Res10 = new System.Windows.Forms.Label();
+            this.Res11 = new System.Windows.Forms.Label();
+            this.Res12 = new System.Windows.Forms.Label();
+            this.Res13 = new System.Windows.Forms.Label();
+            this.Res14 = new System.Windows.Forms.Label();
+            this.Res15 = new System.Windows.Forms.Label();
+            this.Res16 = new System.Windows.Forms.Label();
+            this.Res17 = new System.Windows.Forms.Label();
+            this.Res18 = new System.Windows.Forms.Label();
+            this.Res19 = new System.Windows.Forms.Label();
+            this.Res20 = new System.Windows.Forms.Label();
+            this.Res21 = new System.Windows.Forms.Label();
+            this.Res22 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // FirstChampTxt
@@ -483,563 +483,563 @@ namespace ChampionComparatorGUI
             this.SecondChampResultsLbl.Text = "Dummy";
             this.SecondChampResultsLbl.Visible = false;
             // 
-            // Reshp2Lbl
-            // 
-            this.Reshp2Lbl.AutoSize = true;
-            this.Reshp2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Reshp2Lbl.Location = new System.Drawing.Point(436, 926);
-            this.Reshp2Lbl.Name = "Reshp2Lbl";
-            this.Reshp2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Reshp2Lbl.TabIndex = 40;
-            this.Reshp2Lbl.Text = "hp2";
-            this.Reshp2Lbl.Visible = false;
-            // 
-            // Reshp1Lbl
-            // 
-            this.Reshp1Lbl.AutoSize = true;
-            this.Reshp1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Reshp1Lbl.Location = new System.Drawing.Point(254, 926);
-            this.Reshp1Lbl.Name = "Reshp1Lbl";
-            this.Reshp1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Reshp1Lbl.TabIndex = 41;
-            this.Reshp1Lbl.Text = "hp1";
-            this.Reshp1Lbl.Visible = false;
-            // 
-            // Reshpperlv1Lbl
-            // 
-            this.Reshpperlv1Lbl.AutoSize = true;
-            this.Reshpperlv1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Reshpperlv1Lbl.Location = new System.Drawing.Point(436, 903);
-            this.Reshpperlv1Lbl.Name = "Reshpperlv1Lbl";
-            this.Reshpperlv1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Reshpperlv1Lbl.TabIndex = 42;
-            this.Reshpperlv1Lbl.Text = "hp1";
-            this.Reshpperlv1Lbl.Visible = false;
-            // 
-            // Resarmor1Lbl
-            // 
-            this.Resarmor1Lbl.AutoSize = true;
-            this.Resarmor1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resarmor1Lbl.Location = new System.Drawing.Point(254, 902);
-            this.Resarmor1Lbl.Name = "Resarmor1Lbl";
-            this.Resarmor1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resarmor1Lbl.TabIndex = 43;
-            this.Resarmor1Lbl.Text = "hp1";
-            this.Resarmor1Lbl.Visible = false;
-            // 
-            // Resatkspdperlv1Lbl
-            // 
-            this.Resatkspdperlv1Lbl.AutoSize = true;
-            this.Resatkspdperlv1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resatkspdperlv1Lbl.Location = new System.Drawing.Point(436, 879);
-            this.Resatkspdperlv1Lbl.Name = "Resatkspdperlv1Lbl";
-            this.Resatkspdperlv1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resatkspdperlv1Lbl.TabIndex = 44;
-            this.Resatkspdperlv1Lbl.Text = "hp1";
-            this.Resatkspdperlv1Lbl.Visible = false;
-            // 
-            // Resatkspd1Lbl
-            // 
-            this.Resatkspd1Lbl.AutoSize = true;
-            this.Resatkspd1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resatkspd1Lbl.Location = new System.Drawing.Point(254, 879);
-            this.Resatkspd1Lbl.Name = "Resatkspd1Lbl";
-            this.Resatkspd1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resatkspd1Lbl.TabIndex = 45;
-            this.Resatkspd1Lbl.Text = "hp1";
-            this.Resatkspd1Lbl.Visible = false;
-            // 
-            // Resatkrange1Lbl
-            // 
-            this.Resatkrange1Lbl.AutoSize = true;
-            this.Resatkrange1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resatkrange1Lbl.Location = new System.Drawing.Point(436, 856);
-            this.Resatkrange1Lbl.Name = "Resatkrange1Lbl";
-            this.Resatkrange1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resatkrange1Lbl.TabIndex = 46;
-            this.Resatkrange1Lbl.Text = "hp1";
-            this.Resatkrange1Lbl.Visible = false;
-            // 
-            // Resatkdmgperlv1Lbl
-            // 
-            this.Resatkdmgperlv1Lbl.AutoSize = true;
-            this.Resatkdmgperlv1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resatkdmgperlv1Lbl.Location = new System.Drawing.Point(254, 856);
-            this.Resatkdmgperlv1Lbl.Name = "Resatkdmgperlv1Lbl";
-            this.Resatkdmgperlv1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resatkdmgperlv1Lbl.TabIndex = 47;
-            this.Resatkdmgperlv1Lbl.Text = "hp1";
-            this.Resatkdmgperlv1Lbl.Visible = false;
-            // 
-            // Resatkdmg1Lbl
-            // 
-            this.Resatkdmg1Lbl.AutoSize = true;
-            this.Resatkdmg1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resatkdmg1Lbl.Location = new System.Drawing.Point(436, 798);
-            this.Resatkdmg1Lbl.Name = "Resatkdmg1Lbl";
-            this.Resatkdmg1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resatkdmg1Lbl.TabIndex = 48;
-            this.Resatkdmg1Lbl.Text = "hp1";
-            this.Resatkdmg1Lbl.Visible = false;
-            // 
-            // Resmanaregenperlv1Lbl
-            // 
-            this.Resmanaregenperlv1Lbl.AutoSize = true;
-            this.Resmanaregenperlv1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resmanaregenperlv1Lbl.Location = new System.Drawing.Point(254, 798);
-            this.Resmanaregenperlv1Lbl.Name = "Resmanaregenperlv1Lbl";
-            this.Resmanaregenperlv1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resmanaregenperlv1Lbl.TabIndex = 49;
-            this.Resmanaregenperlv1Lbl.Text = "hp1";
-            this.Resmanaregenperlv1Lbl.Visible = false;
-            // 
-            // Resmanaregen1Lbl
-            // 
-            this.Resmanaregen1Lbl.AutoSize = true;
-            this.Resmanaregen1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resmanaregen1Lbl.Location = new System.Drawing.Point(436, 762);
-            this.Resmanaregen1Lbl.Name = "Resmanaregen1Lbl";
-            this.Resmanaregen1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resmanaregen1Lbl.TabIndex = 50;
-            this.Resmanaregen1Lbl.Text = "hp1";
-            this.Resmanaregen1Lbl.Visible = false;
-            // 
-            // Resmanaperlv1Lbl
-            // 
-            this.Resmanaperlv1Lbl.AutoSize = true;
-            this.Resmanaperlv1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resmanaperlv1Lbl.Location = new System.Drawing.Point(254, 762);
-            this.Resmanaperlv1Lbl.Name = "Resmanaperlv1Lbl";
-            this.Resmanaperlv1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resmanaperlv1Lbl.TabIndex = 51;
-            this.Resmanaperlv1Lbl.Text = "hp1";
-            this.Resmanaperlv1Lbl.Visible = false;
-            // 
-            // Resmana1Lbl
-            // 
-            this.Resmana1Lbl.AutoSize = true;
-            this.Resmana1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resmana1Lbl.Location = new System.Drawing.Point(436, 739);
-            this.Resmana1Lbl.Name = "Resmana1Lbl";
-            this.Resmana1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resmana1Lbl.TabIndex = 52;
-            this.Resmana1Lbl.Text = "hp1";
-            this.Resmana1Lbl.Visible = false;
-            // 
-            // Restype1Lbl
-            // 
-            this.Restype1Lbl.AutoSize = true;
-            this.Restype1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Restype1Lbl.Location = new System.Drawing.Point(254, 739);
-            this.Restype1Lbl.Name = "Restype1Lbl";
-            this.Restype1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Restype1Lbl.TabIndex = 53;
-            this.Restype1Lbl.Text = "hp1";
-            this.Restype1Lbl.Visible = false;
-            // 
-            // Reshpregenperlv1Lbl
-            // 
-            this.Reshpregenperlv1Lbl.AutoSize = true;
-            this.Reshpregenperlv1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Reshpregenperlv1Lbl.Location = new System.Drawing.Point(436, 678);
-            this.Reshpregenperlv1Lbl.Name = "Reshpregenperlv1Lbl";
-            this.Reshpregenperlv1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Reshpregenperlv1Lbl.TabIndex = 54;
-            this.Reshpregenperlv1Lbl.Text = "hp1";
-            this.Reshpregenperlv1Lbl.Visible = false;
-            // 
-            // Reshpregen1Lbl
-            // 
-            this.Reshpregen1Lbl.AutoSize = true;
-            this.Reshpregen1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Reshpregen1Lbl.Location = new System.Drawing.Point(254, 678);
-            this.Reshpregen1Lbl.Name = "Reshpregen1Lbl";
-            this.Reshpregen1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Reshpregen1Lbl.TabIndex = 55;
-            this.Reshpregen1Lbl.Text = "hp1";
-            this.Reshpregen1Lbl.Visible = false;
-            // 
-            // Resrcool1Lbl
-            // 
-            this.Resrcool1Lbl.AutoSize = true;
-            this.Resrcool1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resrcool1Lbl.Location = new System.Drawing.Point(436, 655);
-            this.Resrcool1Lbl.Name = "Resrcool1Lbl";
-            this.Resrcool1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resrcool1Lbl.TabIndex = 56;
-            this.Resrcool1Lbl.Text = "hp1";
-            this.Resrcool1Lbl.Visible = false;
-            // 
-            // Resecool1Lbl
-            // 
-            this.Resecool1Lbl.AutoSize = true;
-            this.Resecool1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resecool1Lbl.Location = new System.Drawing.Point(254, 655);
-            this.Resecool1Lbl.Name = "Resecool1Lbl";
-            this.Resecool1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resecool1Lbl.TabIndex = 57;
-            this.Resecool1Lbl.Text = "hp1";
-            this.Resecool1Lbl.Visible = false;
-            // 
-            // Reswcool1Lbl
-            // 
-            this.Reswcool1Lbl.AutoSize = true;
-            this.Reswcool1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Reswcool1Lbl.Location = new System.Drawing.Point(436, 594);
-            this.Reswcool1Lbl.Name = "Reswcool1Lbl";
-            this.Reswcool1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Reswcool1Lbl.TabIndex = 58;
-            this.Reswcool1Lbl.Text = "hp1";
-            this.Reswcool1Lbl.Visible = false;
-            // 
-            // Resqcool1Lbl
-            // 
-            this.Resqcool1Lbl.AutoSize = true;
-            this.Resqcool1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resqcool1Lbl.Location = new System.Drawing.Point(254, 594);
-            this.Resqcool1Lbl.Name = "Resqcool1Lbl";
-            this.Resqcool1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resqcool1Lbl.TabIndex = 59;
-            this.Resqcool1Lbl.Text = "hp1";
-            this.Resqcool1Lbl.Visible = false;
-            // 
-            // Resmovespd1Lbl
-            // 
-            this.Resmovespd1Lbl.AutoSize = true;
-            this.Resmovespd1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resmovespd1Lbl.Location = new System.Drawing.Point(436, 571);
-            this.Resmovespd1Lbl.Name = "Resmovespd1Lbl";
-            this.Resmovespd1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resmovespd1Lbl.TabIndex = 60;
-            this.Resmovespd1Lbl.Text = "hp1";
-            this.Resmovespd1Lbl.Visible = false;
-            // 
-            // Resspellblkperlv1Lbl
-            // 
-            this.Resspellblkperlv1Lbl.AutoSize = true;
-            this.Resspellblkperlv1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resspellblkperlv1Lbl.Location = new System.Drawing.Point(254, 571);
-            this.Resspellblkperlv1Lbl.Name = "Resspellblkperlv1Lbl";
-            this.Resspellblkperlv1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resspellblkperlv1Lbl.TabIndex = 61;
-            this.Resspellblkperlv1Lbl.Text = "hp1";
-            this.Resspellblkperlv1Lbl.Visible = false;
-            // 
-            // Resspellblk1Lbl
-            // 
-            this.Resspellblk1Lbl.AutoSize = true;
-            this.Resspellblk1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resspellblk1Lbl.Location = new System.Drawing.Point(436, 546);
-            this.Resspellblk1Lbl.Name = "Resspellblk1Lbl";
-            this.Resspellblk1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resspellblk1Lbl.TabIndex = 62;
-            this.Resspellblk1Lbl.Text = "hp1";
-            this.Resspellblk1Lbl.Visible = false;
-            // 
-            // Resarmorperlv1Lbl
-            // 
-            this.Resarmorperlv1Lbl.AutoSize = true;
-            this.Resarmorperlv1Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resarmorperlv1Lbl.Location = new System.Drawing.Point(254, 546);
-            this.Resarmorperlv1Lbl.Name = "Resarmorperlv1Lbl";
-            this.Resarmorperlv1Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resarmorperlv1Lbl.TabIndex = 63;
-            this.Resarmorperlv1Lbl.Text = "hp1";
-            this.Resarmorperlv1Lbl.Visible = false;
-            // 
-            // Resarmorperlv2Lbl
-            // 
-            this.Resarmorperlv2Lbl.AutoSize = true;
-            this.Resarmorperlv2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resarmorperlv2Lbl.Location = new System.Drawing.Point(254, 215);
-            this.Resarmorperlv2Lbl.Name = "Resarmorperlv2Lbl";
-            this.Resarmorperlv2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resarmorperlv2Lbl.TabIndex = 85;
-            this.Resarmorperlv2Lbl.Text = "hp1";
-            this.Resarmorperlv2Lbl.Visible = false;
-            // 
-            // Resspellblk2Lbl
-            // 
-            this.Resspellblk2Lbl.AutoSize = true;
-            this.Resspellblk2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resspellblk2Lbl.Location = new System.Drawing.Point(436, 215);
-            this.Resspellblk2Lbl.Name = "Resspellblk2Lbl";
-            this.Resspellblk2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resspellblk2Lbl.TabIndex = 84;
-            this.Resspellblk2Lbl.Text = "hp1";
-            this.Resspellblk2Lbl.Visible = false;
-            // 
-            // Resspellblkperlv2Lbl
-            // 
-            this.Resspellblkperlv2Lbl.AutoSize = true;
-            this.Resspellblkperlv2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resspellblkperlv2Lbl.Location = new System.Drawing.Point(254, 239);
-            this.Resspellblkperlv2Lbl.Name = "Resspellblkperlv2Lbl";
-            this.Resspellblkperlv2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resspellblkperlv2Lbl.TabIndex = 83;
-            this.Resspellblkperlv2Lbl.Text = "hp1";
-            this.Resspellblkperlv2Lbl.Visible = false;
-            // 
-            // Resmovespd2Lbl
-            // 
-            this.Resmovespd2Lbl.AutoSize = true;
-            this.Resmovespd2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resmovespd2Lbl.Location = new System.Drawing.Point(436, 238);
-            this.Resmovespd2Lbl.Name = "Resmovespd2Lbl";
-            this.Resmovespd2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resmovespd2Lbl.TabIndex = 82;
-            this.Resmovespd2Lbl.Text = "hp1";
-            this.Resmovespd2Lbl.Visible = false;
-            // 
-            // Resqcool2Lbl
-            // 
-            this.Resqcool2Lbl.AutoSize = true;
-            this.Resqcool2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resqcool2Lbl.Location = new System.Drawing.Point(254, 262);
-            this.Resqcool2Lbl.Name = "Resqcool2Lbl";
-            this.Resqcool2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resqcool2Lbl.TabIndex = 81;
-            this.Resqcool2Lbl.Text = "hp1";
-            this.Resqcool2Lbl.Visible = false;
-            // 
-            // Reswcool2Lbl
-            // 
-            this.Reswcool2Lbl.AutoSize = true;
-            this.Reswcool2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Reswcool2Lbl.Location = new System.Drawing.Point(436, 261);
-            this.Reswcool2Lbl.Name = "Reswcool2Lbl";
-            this.Reswcool2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Reswcool2Lbl.TabIndex = 80;
-            this.Reswcool2Lbl.Text = "hp1";
-            this.Reswcool2Lbl.Visible = false;
-            // 
-            // Resecool2Lbl
-            // 
-            this.Resecool2Lbl.AutoSize = true;
-            this.Resecool2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resecool2Lbl.Location = new System.Drawing.Point(254, 285);
-            this.Resecool2Lbl.Name = "Resecool2Lbl";
-            this.Resecool2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resecool2Lbl.TabIndex = 79;
-            this.Resecool2Lbl.Text = "hp1";
-            this.Resecool2Lbl.Visible = false;
-            // 
-            // Resrcool2Lbl
-            // 
-            this.Resrcool2Lbl.AutoSize = true;
-            this.Resrcool2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resrcool2Lbl.Location = new System.Drawing.Point(436, 286);
-            this.Resrcool2Lbl.Name = "Resrcool2Lbl";
-            this.Resrcool2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resrcool2Lbl.TabIndex = 78;
-            this.Resrcool2Lbl.Text = "hp1";
-            this.Resrcool2Lbl.Visible = false;
-            // 
-            // Reshpregen2Lbl
-            // 
-            this.Reshpregen2Lbl.AutoSize = true;
-            this.Reshpregen2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Reshpregen2Lbl.Location = new System.Drawing.Point(254, 345);
-            this.Reshpregen2Lbl.Name = "Reshpregen2Lbl";
-            this.Reshpregen2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Reshpregen2Lbl.TabIndex = 77;
-            this.Reshpregen2Lbl.Text = "hp1";
-            this.Reshpregen2Lbl.Visible = false;
-            // 
-            // Reshpregenperlv2Lbl
-            // 
-            this.Reshpregenperlv2Lbl.AutoSize = true;
-            this.Reshpregenperlv2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Reshpregenperlv2Lbl.Location = new System.Drawing.Point(436, 346);
-            this.Reshpregenperlv2Lbl.Name = "Reshpregenperlv2Lbl";
-            this.Reshpregenperlv2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Reshpregenperlv2Lbl.TabIndex = 76;
-            this.Reshpregenperlv2Lbl.Text = "hp1";
-            this.Reshpregenperlv2Lbl.Visible = false;
-            // 
-            // Restype2Lbl
-            // 
-            this.Restype2Lbl.AutoSize = true;
-            this.Restype2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Restype2Lbl.Location = new System.Drawing.Point(254, 369);
-            this.Restype2Lbl.Name = "Restype2Lbl";
-            this.Restype2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Restype2Lbl.TabIndex = 75;
-            this.Restype2Lbl.Text = "hp1";
-            this.Restype2Lbl.Visible = false;
-            // 
-            // Resmana2Lbl
-            // 
-            this.Resmana2Lbl.AutoSize = true;
-            this.Resmana2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resmana2Lbl.Location = new System.Drawing.Point(436, 369);
-            this.Resmana2Lbl.Name = "Resmana2Lbl";
-            this.Resmana2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resmana2Lbl.TabIndex = 74;
-            this.Resmana2Lbl.Text = "hp1";
-            this.Resmana2Lbl.Visible = false;
-            // 
-            // Resmanaperlv2Lbl
-            // 
-            this.Resmanaperlv2Lbl.AutoSize = true;
-            this.Resmanaperlv2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resmanaperlv2Lbl.Location = new System.Drawing.Point(254, 392);
-            this.Resmanaperlv2Lbl.Name = "Resmanaperlv2Lbl";
-            this.Resmanaperlv2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resmanaperlv2Lbl.TabIndex = 73;
-            this.Resmanaperlv2Lbl.Text = "hp1";
-            this.Resmanaperlv2Lbl.Visible = false;
-            // 
-            // Resmanaregen2Lbl
-            // 
-            this.Resmanaregen2Lbl.AutoSize = true;
-            this.Resmanaregen2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resmanaregen2Lbl.Location = new System.Drawing.Point(436, 392);
-            this.Resmanaregen2Lbl.Name = "Resmanaregen2Lbl";
-            this.Resmanaregen2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resmanaregen2Lbl.TabIndex = 72;
-            this.Resmanaregen2Lbl.Text = "hp1";
-            this.Resmanaregen2Lbl.Visible = false;
-            // 
-            // Resmanaregenperlv2Lbl
-            // 
-            this.Resmanaregenperlv2Lbl.AutoSize = true;
-            this.Resmanaregenperlv2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resmanaregenperlv2Lbl.Location = new System.Drawing.Point(254, 415);
-            this.Resmanaregenperlv2Lbl.Name = "Resmanaregenperlv2Lbl";
-            this.Resmanaregenperlv2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resmanaregenperlv2Lbl.TabIndex = 71;
-            this.Resmanaregenperlv2Lbl.Text = "hp1";
-            this.Resmanaregenperlv2Lbl.Visible = false;
-            // 
-            // Resatkdmg2Lbl
-            // 
-            this.Resatkdmg2Lbl.AutoSize = true;
-            this.Resatkdmg2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resatkdmg2Lbl.Location = new System.Drawing.Point(436, 415);
-            this.Resatkdmg2Lbl.Name = "Resatkdmg2Lbl";
-            this.Resatkdmg2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resatkdmg2Lbl.TabIndex = 70;
-            this.Resatkdmg2Lbl.Text = "hp1";
-            this.Resatkdmg2Lbl.Visible = false;
-            // 
-            // Resatkdmgperlv2Lbl
-            // 
-            this.Resatkdmgperlv2Lbl.AutoSize = true;
-            this.Resatkdmgperlv2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resatkdmgperlv2Lbl.Location = new System.Drawing.Point(254, 439);
-            this.Resatkdmgperlv2Lbl.Name = "Resatkdmgperlv2Lbl";
-            this.Resatkdmgperlv2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resatkdmgperlv2Lbl.TabIndex = 69;
-            this.Resatkdmgperlv2Lbl.Text = "hp1";
-            this.Resatkdmgperlv2Lbl.Visible = false;
-            // 
-            // Resatkrange2Lbl
-            // 
-            this.Resatkrange2Lbl.AutoSize = true;
-            this.Resatkrange2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resatkrange2Lbl.Location = new System.Drawing.Point(436, 439);
-            this.Resatkrange2Lbl.Name = "Resatkrange2Lbl";
-            this.Resatkrange2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resatkrange2Lbl.TabIndex = 68;
-            this.Resatkrange2Lbl.Text = "hp1";
-            this.Resatkrange2Lbl.Visible = false;
-            // 
-            // Resatkspd2Lbl
-            // 
-            this.Resatkspd2Lbl.AutoSize = true;
-            this.Resatkspd2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resatkspd2Lbl.Location = new System.Drawing.Point(254, 500);
-            this.Resatkspd2Lbl.Name = "Resatkspd2Lbl";
-            this.Resatkspd2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resatkspd2Lbl.TabIndex = 67;
-            this.Resatkspd2Lbl.Text = "hp1";
-            this.Resatkspd2Lbl.Visible = false;
-            // 
-            // Resatkspdperlv2Lbl
-            // 
-            this.Resatkspdperlv2Lbl.AutoSize = true;
-            this.Resatkspdperlv2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resatkspdperlv2Lbl.Location = new System.Drawing.Point(436, 500);
-            this.Resatkspdperlv2Lbl.Name = "Resatkspdperlv2Lbl";
-            this.Resatkspdperlv2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resatkspdperlv2Lbl.TabIndex = 66;
-            this.Resatkspdperlv2Lbl.Text = "hp1";
-            this.Resatkspdperlv2Lbl.Visible = false;
-            // 
-            // Resarmor2Lbl
-            // 
-            this.Resarmor2Lbl.AutoSize = true;
-            this.Resarmor2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Resarmor2Lbl.Location = new System.Drawing.Point(254, 523);
-            this.Resarmor2Lbl.Name = "Resarmor2Lbl";
-            this.Resarmor2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Resarmor2Lbl.TabIndex = 65;
-            this.Resarmor2Lbl.Text = "hp1";
-            this.Resarmor2Lbl.Visible = false;
-            // 
-            // Reshpperlv2Lbl
-            // 
-            this.Reshpperlv2Lbl.AutoSize = true;
-            this.Reshpperlv2Lbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Reshpperlv2Lbl.Location = new System.Drawing.Point(436, 523);
-            this.Reshpperlv2Lbl.Name = "Reshpperlv2Lbl";
-            this.Reshpperlv2Lbl.Size = new System.Drawing.Size(39, 23);
-            this.Reshpperlv2Lbl.TabIndex = 64;
-            this.Reshpperlv2Lbl.Text = "hp1";
-            this.Reshpperlv2Lbl.Visible = false;
+            // Res46
+            // 
+            this.Res46.AutoSize = true;
+            this.Res46.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res46.Location = new System.Drawing.Point(436, 926);
+            this.Res46.Name = "Res46";
+            this.Res46.Size = new System.Drawing.Size(39, 23);
+            this.Res46.TabIndex = 40;
+            this.Res46.Text = "hp2";
+            this.Res46.Visible = false;
+            // 
+            // Res45
+            // 
+            this.Res45.AutoSize = true;
+            this.Res45.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res45.Location = new System.Drawing.Point(254, 926);
+            this.Res45.Name = "Res45";
+            this.Res45.Size = new System.Drawing.Size(39, 23);
+            this.Res45.TabIndex = 41;
+            this.Res45.Text = "hp1";
+            this.Res45.Visible = false;
+            // 
+            // Res44
+            // 
+            this.Res44.AutoSize = true;
+            this.Res44.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res44.Location = new System.Drawing.Point(436, 903);
+            this.Res44.Name = "Res44";
+            this.Res44.Size = new System.Drawing.Size(39, 23);
+            this.Res44.TabIndex = 42;
+            this.Res44.Text = "hp1";
+            this.Res44.Visible = false;
+            // 
+            // Res43
+            // 
+            this.Res43.AutoSize = true;
+            this.Res43.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res43.Location = new System.Drawing.Point(254, 902);
+            this.Res43.Name = "Res43";
+            this.Res43.Size = new System.Drawing.Size(39, 23);
+            this.Res43.TabIndex = 43;
+            this.Res43.Text = "hp1";
+            this.Res43.Visible = false;
+            // 
+            // Res42
+            // 
+            this.Res42.AutoSize = true;
+            this.Res42.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res42.Location = new System.Drawing.Point(436, 879);
+            this.Res42.Name = "Res42";
+            this.Res42.Size = new System.Drawing.Size(39, 23);
+            this.Res42.TabIndex = 44;
+            this.Res42.Text = "hp1";
+            this.Res42.Visible = false;
+            // 
+            // Res41
+            // 
+            this.Res41.AutoSize = true;
+            this.Res41.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res41.Location = new System.Drawing.Point(254, 879);
+            this.Res41.Name = "Res41";
+            this.Res41.Size = new System.Drawing.Size(39, 23);
+            this.Res41.TabIndex = 45;
+            this.Res41.Text = "hp1";
+            this.Res41.Visible = false;
+            // 
+            // Res40
+            // 
+            this.Res40.AutoSize = true;
+            this.Res40.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res40.Location = new System.Drawing.Point(436, 856);
+            this.Res40.Name = "Res40";
+            this.Res40.Size = new System.Drawing.Size(39, 23);
+            this.Res40.TabIndex = 46;
+            this.Res40.Text = "hp1";
+            this.Res40.Visible = false;
+            // 
+            // Res39
+            // 
+            this.Res39.AutoSize = true;
+            this.Res39.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res39.Location = new System.Drawing.Point(254, 856);
+            this.Res39.Name = "Res39";
+            this.Res39.Size = new System.Drawing.Size(39, 23);
+            this.Res39.TabIndex = 47;
+            this.Res39.Text = "hp1";
+            this.Res39.Visible = false;
+            // 
+            // Res38
+            // 
+            this.Res38.AutoSize = true;
+            this.Res38.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res38.Location = new System.Drawing.Point(436, 798);
+            this.Res38.Name = "Res38";
+            this.Res38.Size = new System.Drawing.Size(39, 23);
+            this.Res38.TabIndex = 48;
+            this.Res38.Text = "hp1";
+            this.Res38.Visible = false;
+            // 
+            // Res37
+            // 
+            this.Res37.AutoSize = true;
+            this.Res37.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res37.Location = new System.Drawing.Point(254, 798);
+            this.Res37.Name = "Res37";
+            this.Res37.Size = new System.Drawing.Size(39, 23);
+            this.Res37.TabIndex = 49;
+            this.Res37.Text = "hp1";
+            this.Res37.Visible = false;
+            // 
+            // Res36
+            // 
+            this.Res36.AutoSize = true;
+            this.Res36.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res36.Location = new System.Drawing.Point(436, 762);
+            this.Res36.Name = "Res36";
+            this.Res36.Size = new System.Drawing.Size(39, 23);
+            this.Res36.TabIndex = 50;
+            this.Res36.Text = "hp1";
+            this.Res36.Visible = false;
+            // 
+            // Res35
+            // 
+            this.Res35.AutoSize = true;
+            this.Res35.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res35.Location = new System.Drawing.Point(254, 762);
+            this.Res35.Name = "Res35";
+            this.Res35.Size = new System.Drawing.Size(39, 23);
+            this.Res35.TabIndex = 51;
+            this.Res35.Text = "hp1";
+            this.Res35.Visible = false;
+            // 
+            // Res34
+            // 
+            this.Res34.AutoSize = true;
+            this.Res34.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res34.Location = new System.Drawing.Point(436, 739);
+            this.Res34.Name = "Res34";
+            this.Res34.Size = new System.Drawing.Size(39, 23);
+            this.Res34.TabIndex = 52;
+            this.Res34.Text = "hp1";
+            this.Res34.Visible = false;
+            // 
+            // Res33
+            // 
+            this.Res33.AutoSize = true;
+            this.Res33.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res33.Location = new System.Drawing.Point(254, 739);
+            this.Res33.Name = "Res33";
+            this.Res33.Size = new System.Drawing.Size(39, 23);
+            this.Res33.TabIndex = 53;
+            this.Res33.Text = "hp1";
+            this.Res33.Visible = false;
+            // 
+            // Res32
+            // 
+            this.Res32.AutoSize = true;
+            this.Res32.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res32.Location = new System.Drawing.Point(436, 678);
+            this.Res32.Name = "Res32";
+            this.Res32.Size = new System.Drawing.Size(39, 23);
+            this.Res32.TabIndex = 54;
+            this.Res32.Text = "hp1";
+            this.Res32.Visible = false;
+            // 
+            // Res31
+            // 
+            this.Res31.AutoSize = true;
+            this.Res31.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res31.Location = new System.Drawing.Point(254, 678);
+            this.Res31.Name = "Res31";
+            this.Res31.Size = new System.Drawing.Size(39, 23);
+            this.Res31.TabIndex = 55;
+            this.Res31.Text = "hp1";
+            this.Res31.Visible = false;
+            // 
+            // Res30
+            // 
+            this.Res30.AutoSize = true;
+            this.Res30.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res30.Location = new System.Drawing.Point(436, 655);
+            this.Res30.Name = "Res30";
+            this.Res30.Size = new System.Drawing.Size(39, 23);
+            this.Res30.TabIndex = 56;
+            this.Res30.Text = "hp1";
+            this.Res30.Visible = false;
+            // 
+            // Res29
+            // 
+            this.Res29.AutoSize = true;
+            this.Res29.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res29.Location = new System.Drawing.Point(254, 655);
+            this.Res29.Name = "Res29";
+            this.Res29.Size = new System.Drawing.Size(39, 23);
+            this.Res29.TabIndex = 57;
+            this.Res29.Text = "hp1";
+            this.Res29.Visible = false;
+            // 
+            // Res28
+            // 
+            this.Res28.AutoSize = true;
+            this.Res28.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res28.Location = new System.Drawing.Point(436, 594);
+            this.Res28.Name = "Res28";
+            this.Res28.Size = new System.Drawing.Size(39, 23);
+            this.Res28.TabIndex = 58;
+            this.Res28.Text = "hp1";
+            this.Res28.Visible = false;
+            // 
+            // Res27
+            // 
+            this.Res27.AutoSize = true;
+            this.Res27.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res27.Location = new System.Drawing.Point(254, 594);
+            this.Res27.Name = "Res27";
+            this.Res27.Size = new System.Drawing.Size(39, 23);
+            this.Res27.TabIndex = 59;
+            this.Res27.Text = "hp1";
+            this.Res27.Visible = false;
+            // 
+            // Res26
+            // 
+            this.Res26.AutoSize = true;
+            this.Res26.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res26.Location = new System.Drawing.Point(436, 571);
+            this.Res26.Name = "Res26";
+            this.Res26.Size = new System.Drawing.Size(39, 23);
+            this.Res26.TabIndex = 60;
+            this.Res26.Text = "hp1";
+            this.Res26.Visible = false;
+            // 
+            // Res25
+            // 
+            this.Res25.AutoSize = true;
+            this.Res25.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res25.Location = new System.Drawing.Point(254, 571);
+            this.Res25.Name = "Res25";
+            this.Res25.Size = new System.Drawing.Size(39, 23);
+            this.Res25.TabIndex = 61;
+            this.Res25.Text = "hp1";
+            this.Res25.Visible = false;
+            // 
+            // Res24
+            // 
+            this.Res24.AutoSize = true;
+            this.Res24.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res24.Location = new System.Drawing.Point(436, 546);
+            this.Res24.Name = "Res24";
+            this.Res24.Size = new System.Drawing.Size(39, 23);
+            this.Res24.TabIndex = 62;
+            this.Res24.Text = "hp1";
+            this.Res24.Visible = false;
+            // 
+            // Res23
+            // 
+            this.Res23.AutoSize = true;
+            this.Res23.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res23.Location = new System.Drawing.Point(254, 546);
+            this.Res23.Name = "Res23";
+            this.Res23.Size = new System.Drawing.Size(39, 23);
+            this.Res23.TabIndex = 63;
+            this.Res23.Text = "hp1";
+            this.Res23.Visible = false;
+            // 
+            // Res1
+            // 
+            this.Res1.AutoSize = true;
+            this.Res1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res1.Location = new System.Drawing.Point(254, 215);
+            this.Res1.Name = "Res1";
+            this.Res1.Size = new System.Drawing.Size(39, 23);
+            this.Res1.TabIndex = 85;
+            this.Res1.Text = "hp1";
+            this.Res1.Visible = false;
+            // 
+            // Res2
+            // 
+            this.Res2.AutoSize = true;
+            this.Res2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res2.Location = new System.Drawing.Point(436, 215);
+            this.Res2.Name = "Res2";
+            this.Res2.Size = new System.Drawing.Size(39, 23);
+            this.Res2.TabIndex = 84;
+            this.Res2.Text = "hp1";
+            this.Res2.Visible = false;
+            // 
+            // Res3
+            // 
+            this.Res3.AutoSize = true;
+            this.Res3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res3.Location = new System.Drawing.Point(254, 239);
+            this.Res3.Name = "Res3";
+            this.Res3.Size = new System.Drawing.Size(39, 23);
+            this.Res3.TabIndex = 83;
+            this.Res3.Text = "hp1";
+            this.Res3.Visible = false;
+            // 
+            // Res4
+            // 
+            this.Res4.AutoSize = true;
+            this.Res4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res4.Location = new System.Drawing.Point(436, 238);
+            this.Res4.Name = "Res4";
+            this.Res4.Size = new System.Drawing.Size(39, 23);
+            this.Res4.TabIndex = 82;
+            this.Res4.Text = "hp1";
+            this.Res4.Visible = false;
+            // 
+            // Res5
+            // 
+            this.Res5.AutoSize = true;
+            this.Res5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res5.Location = new System.Drawing.Point(254, 262);
+            this.Res5.Name = "Res5";
+            this.Res5.Size = new System.Drawing.Size(39, 23);
+            this.Res5.TabIndex = 81;
+            this.Res5.Text = "hp1";
+            this.Res5.Visible = false;
+            // 
+            // Res6
+            // 
+            this.Res6.AutoSize = true;
+            this.Res6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res6.Location = new System.Drawing.Point(436, 261);
+            this.Res6.Name = "Res6";
+            this.Res6.Size = new System.Drawing.Size(39, 23);
+            this.Res6.TabIndex = 80;
+            this.Res6.Text = "hp1";
+            this.Res6.Visible = false;
+            // 
+            // Res7
+            // 
+            this.Res7.AutoSize = true;
+            this.Res7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res7.Location = new System.Drawing.Point(254, 285);
+            this.Res7.Name = "Res7";
+            this.Res7.Size = new System.Drawing.Size(39, 23);
+            this.Res7.TabIndex = 79;
+            this.Res7.Text = "hp1";
+            this.Res7.Visible = false;
+            // 
+            // Res8
+            // 
+            this.Res8.AutoSize = true;
+            this.Res8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res8.Location = new System.Drawing.Point(436, 286);
+            this.Res8.Name = "Res8";
+            this.Res8.Size = new System.Drawing.Size(39, 23);
+            this.Res8.TabIndex = 78;
+            this.Res8.Text = "hp1";
+            this.Res8.Visible = false;
+            // 
+            // Res9
+            // 
+            this.Res9.AutoSize = true;
+            this.Res9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res9.Location = new System.Drawing.Point(254, 345);
+            this.Res9.Name = "Res9";
+            this.Res9.Size = new System.Drawing.Size(39, 23);
+            this.Res9.TabIndex = 77;
+            this.Res9.Text = "hp1";
+            this.Res9.Visible = false;
+            // 
+            // Res10
+            // 
+            this.Res10.AutoSize = true;
+            this.Res10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res10.Location = new System.Drawing.Point(436, 346);
+            this.Res10.Name = "Res10";
+            this.Res10.Size = new System.Drawing.Size(39, 23);
+            this.Res10.TabIndex = 76;
+            this.Res10.Text = "hp1";
+            this.Res10.Visible = false;
+            // 
+            // Res11
+            // 
+            this.Res11.AutoSize = true;
+            this.Res11.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res11.Location = new System.Drawing.Point(254, 369);
+            this.Res11.Name = "Res11";
+            this.Res11.Size = new System.Drawing.Size(39, 23);
+            this.Res11.TabIndex = 75;
+            this.Res11.Text = "hp1";
+            this.Res11.Visible = false;
+            // 
+            // Res12
+            // 
+            this.Res12.AutoSize = true;
+            this.Res12.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res12.Location = new System.Drawing.Point(436, 369);
+            this.Res12.Name = "Res12";
+            this.Res12.Size = new System.Drawing.Size(39, 23);
+            this.Res12.TabIndex = 74;
+            this.Res12.Text = "hp1";
+            this.Res12.Visible = false;
+            // 
+            // Res13
+            // 
+            this.Res13.AutoSize = true;
+            this.Res13.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res13.Location = new System.Drawing.Point(254, 392);
+            this.Res13.Name = "Res13";
+            this.Res13.Size = new System.Drawing.Size(39, 23);
+            this.Res13.TabIndex = 73;
+            this.Res13.Text = "hp1";
+            this.Res13.Visible = false;
+            // 
+            // Res14
+            // 
+            this.Res14.AutoSize = true;
+            this.Res14.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res14.Location = new System.Drawing.Point(436, 392);
+            this.Res14.Name = "Res14";
+            this.Res14.Size = new System.Drawing.Size(39, 23);
+            this.Res14.TabIndex = 72;
+            this.Res14.Text = "hp1";
+            this.Res14.Visible = false;
+            // 
+            // Res15
+            // 
+            this.Res15.AutoSize = true;
+            this.Res15.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res15.Location = new System.Drawing.Point(254, 415);
+            this.Res15.Name = "Res15";
+            this.Res15.Size = new System.Drawing.Size(39, 23);
+            this.Res15.TabIndex = 71;
+            this.Res15.Text = "hp1";
+            this.Res15.Visible = false;
+            // 
+            // Res16
+            // 
+            this.Res16.AutoSize = true;
+            this.Res16.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res16.Location = new System.Drawing.Point(436, 415);
+            this.Res16.Name = "Res16";
+            this.Res16.Size = new System.Drawing.Size(39, 23);
+            this.Res16.TabIndex = 70;
+            this.Res16.Text = "hp1";
+            this.Res16.Visible = false;
+            // 
+            // Res17
+            // 
+            this.Res17.AutoSize = true;
+            this.Res17.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res17.Location = new System.Drawing.Point(254, 439);
+            this.Res17.Name = "Res17";
+            this.Res17.Size = new System.Drawing.Size(39, 23);
+            this.Res17.TabIndex = 69;
+            this.Res17.Text = "hp1";
+            this.Res17.Visible = false;
+            // 
+            // Res18
+            // 
+            this.Res18.AutoSize = true;
+            this.Res18.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res18.Location = new System.Drawing.Point(436, 439);
+            this.Res18.Name = "Res18";
+            this.Res18.Size = new System.Drawing.Size(39, 23);
+            this.Res18.TabIndex = 68;
+            this.Res18.Text = "hp1";
+            this.Res18.Visible = false;
+            // 
+            // Res19
+            // 
+            this.Res19.AutoSize = true;
+            this.Res19.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res19.Location = new System.Drawing.Point(254, 500);
+            this.Res19.Name = "Res19";
+            this.Res19.Size = new System.Drawing.Size(39, 23);
+            this.Res19.TabIndex = 67;
+            this.Res19.Text = "hp1";
+            this.Res19.Visible = false;
+            // 
+            // Res20
+            // 
+            this.Res20.AutoSize = true;
+            this.Res20.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res20.Location = new System.Drawing.Point(436, 500);
+            this.Res20.Name = "Res20";
+            this.Res20.Size = new System.Drawing.Size(39, 23);
+            this.Res20.TabIndex = 66;
+            this.Res20.Text = "hp1";
+            this.Res20.Visible = false;
+            // 
+            // Res21
+            // 
+            this.Res21.AutoSize = true;
+            this.Res21.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res21.Location = new System.Drawing.Point(254, 523);
+            this.Res21.Name = "Res21";
+            this.Res21.Size = new System.Drawing.Size(39, 23);
+            this.Res21.TabIndex = 65;
+            this.Res21.Text = "hp1";
+            this.Res21.Visible = false;
+            // 
+            // Res22
+            // 
+            this.Res22.AutoSize = true;
+            this.Res22.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res22.Location = new System.Drawing.Point(436, 523);
+            this.Res22.Name = "Res22";
+            this.Res22.Size = new System.Drawing.Size(39, 23);
+            this.Res22.TabIndex = 64;
+            this.Res22.Text = "hp1";
+            this.Res22.Visible = false;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(625, 967);
-            this.Controls.Add(this.Resarmorperlv2Lbl);
-            this.Controls.Add(this.Resspellblk2Lbl);
-            this.Controls.Add(this.Resspellblkperlv2Lbl);
-            this.Controls.Add(this.Resmovespd2Lbl);
-            this.Controls.Add(this.Resqcool2Lbl);
-            this.Controls.Add(this.Reswcool2Lbl);
-            this.Controls.Add(this.Resecool2Lbl);
-            this.Controls.Add(this.Resrcool2Lbl);
-            this.Controls.Add(this.Reshpregen2Lbl);
-            this.Controls.Add(this.Reshpregenperlv2Lbl);
-            this.Controls.Add(this.Restype2Lbl);
-            this.Controls.Add(this.Resmana2Lbl);
-            this.Controls.Add(this.Resmanaperlv2Lbl);
-            this.Controls.Add(this.Resmanaregen2Lbl);
-            this.Controls.Add(this.Resmanaregenperlv2Lbl);
-            this.Controls.Add(this.Resatkdmg2Lbl);
-            this.Controls.Add(this.Resatkdmgperlv2Lbl);
-            this.Controls.Add(this.Resatkrange2Lbl);
-            this.Controls.Add(this.Resatkspd2Lbl);
-            this.Controls.Add(this.Resatkspdperlv2Lbl);
-            this.Controls.Add(this.Resarmor2Lbl);
-            this.Controls.Add(this.Reshpperlv2Lbl);
-            this.Controls.Add(this.Resarmorperlv1Lbl);
-            this.Controls.Add(this.Resspellblk1Lbl);
-            this.Controls.Add(this.Resspellblkperlv1Lbl);
-            this.Controls.Add(this.Resmovespd1Lbl);
-            this.Controls.Add(this.Resqcool1Lbl);
-            this.Controls.Add(this.Reswcool1Lbl);
-            this.Controls.Add(this.Resecool1Lbl);
-            this.Controls.Add(this.Resrcool1Lbl);
-            this.Controls.Add(this.Reshpregen1Lbl);
-            this.Controls.Add(this.Reshpregenperlv1Lbl);
-            this.Controls.Add(this.Restype1Lbl);
-            this.Controls.Add(this.Resmana1Lbl);
-            this.Controls.Add(this.Resmanaperlv1Lbl);
-            this.Controls.Add(this.Resmanaregen1Lbl);
-            this.Controls.Add(this.Resmanaregenperlv1Lbl);
-            this.Controls.Add(this.Resatkdmg1Lbl);
-            this.Controls.Add(this.Resatkdmgperlv1Lbl);
-            this.Controls.Add(this.Resatkrange1Lbl);
-            this.Controls.Add(this.Resatkspd1Lbl);
-            this.Controls.Add(this.Resatkspdperlv1Lbl);
-            this.Controls.Add(this.Resarmor1Lbl);
-            this.Controls.Add(this.Reshpperlv1Lbl);
-            this.Controls.Add(this.Reshp1Lbl);
-            this.Controls.Add(this.Reshp2Lbl);
+            this.Controls.Add(this.Res1);
+            this.Controls.Add(this.Res2);
+            this.Controls.Add(this.Res3);
+            this.Controls.Add(this.Res4);
+            this.Controls.Add(this.Res5);
+            this.Controls.Add(this.Res6);
+            this.Controls.Add(this.Res7);
+            this.Controls.Add(this.Res8);
+            this.Controls.Add(this.Res9);
+            this.Controls.Add(this.Res10);
+            this.Controls.Add(this.Res11);
+            this.Controls.Add(this.Res12);
+            this.Controls.Add(this.Res13);
+            this.Controls.Add(this.Res14);
+            this.Controls.Add(this.Res15);
+            this.Controls.Add(this.Res16);
+            this.Controls.Add(this.Res17);
+            this.Controls.Add(this.Res18);
+            this.Controls.Add(this.Res19);
+            this.Controls.Add(this.Res20);
+            this.Controls.Add(this.Res21);
+            this.Controls.Add(this.Res22);
+            this.Controls.Add(this.Res23);
+            this.Controls.Add(this.Res24);
+            this.Controls.Add(this.Res25);
+            this.Controls.Add(this.Res26);
+            this.Controls.Add(this.Res27);
+            this.Controls.Add(this.Res28);
+            this.Controls.Add(this.Res29);
+            this.Controls.Add(this.Res30);
+            this.Controls.Add(this.Res31);
+            this.Controls.Add(this.Res32);
+            this.Controls.Add(this.Res33);
+            this.Controls.Add(this.Res34);
+            this.Controls.Add(this.Res35);
+            this.Controls.Add(this.Res36);
+            this.Controls.Add(this.Res37);
+            this.Controls.Add(this.Res38);
+            this.Controls.Add(this.Res39);
+            this.Controls.Add(this.Res40);
+            this.Controls.Add(this.Res41);
+            this.Controls.Add(this.Res42);
+            this.Controls.Add(this.Res43);
+            this.Controls.Add(this.Res44);
+            this.Controls.Add(this.Res45);
+            this.Controls.Add(this.Res46);
             this.Controls.Add(this.SecondChampResultsLbl);
             this.Controls.Add(this.FirstChampResultsLbl);
             this.Controls.Add(this.CoolStatsLbl);
@@ -1123,52 +1123,52 @@ namespace ChampionComparatorGUI
         private System.Windows.Forms.Label CoolStatsLbl;
         private System.Windows.Forms.Label FirstChampResultsLbl;
         private System.Windows.Forms.Label SecondChampResultsLbl;
-        private System.Windows.Forms.Label Reshp2Lbl;
-        private System.Windows.Forms.Label Reshp1Lbl;
-        private System.Windows.Forms.Label Reshpperlv1Lbl;
-        private System.Windows.Forms.Label Resarmor1Lbl;
-        private System.Windows.Forms.Label Resatkspdperlv1Lbl;
-        private System.Windows.Forms.Label Resatkspd1Lbl;
-        private System.Windows.Forms.Label Resatkrange1Lbl;
-        private System.Windows.Forms.Label Resatkdmgperlv1Lbl;
-        private System.Windows.Forms.Label Resatkdmg1Lbl;
-        private System.Windows.Forms.Label Resmanaregenperlv1Lbl;
-        private System.Windows.Forms.Label Resmanaregen1Lbl;
-        private System.Windows.Forms.Label Resmanaperlv1Lbl;
-        private System.Windows.Forms.Label Resmana1Lbl;
-        private System.Windows.Forms.Label Restype1Lbl;
-        private System.Windows.Forms.Label Reshpregenperlv1Lbl;
-        private System.Windows.Forms.Label Reshpregen1Lbl;
-        private System.Windows.Forms.Label Resrcool1Lbl;
-        private System.Windows.Forms.Label Resecool1Lbl;
-        private System.Windows.Forms.Label Reswcool1Lbl;
-        private System.Windows.Forms.Label Resqcool1Lbl;
-        private System.Windows.Forms.Label Resmovespd1Lbl;
-        private System.Windows.Forms.Label Resspellblkperlv1Lbl;
-        private System.Windows.Forms.Label Resspellblk1Lbl;
-        private System.Windows.Forms.Label Resarmorperlv1Lbl;
-        private System.Windows.Forms.Label Resarmorperlv2Lbl;
-        private System.Windows.Forms.Label Resspellblk2Lbl;
-        private System.Windows.Forms.Label Resspellblkperlv2Lbl;
-        private System.Windows.Forms.Label Resmovespd2Lbl;
-        private System.Windows.Forms.Label Resqcool2Lbl;
-        private System.Windows.Forms.Label Reswcool2Lbl;
-        private System.Windows.Forms.Label Resecool2Lbl;
-        private System.Windows.Forms.Label Resrcool2Lbl;
-        private System.Windows.Forms.Label Reshpregen2Lbl;
-        private System.Windows.Forms.Label Reshpregenperlv2Lbl;
-        private System.Windows.Forms.Label Restype2Lbl;
-        private System.Windows.Forms.Label Resmana2Lbl;
-        private System.Windows.Forms.Label Resmanaperlv2Lbl;
-        private System.Windows.Forms.Label Resmanaregen2Lbl;
-        private System.Windows.Forms.Label Resmanaregenperlv2Lbl;
-        private System.Windows.Forms.Label Resatkdmg2Lbl;
-        private System.Windows.Forms.Label Resatkdmgperlv2Lbl;
-        private System.Windows.Forms.Label Resatkrange2Lbl;
-        private System.Windows.Forms.Label Resatkspd2Lbl;
-        private System.Windows.Forms.Label Resatkspdperlv2Lbl;
-        private System.Windows.Forms.Label Resarmor2Lbl;
-        private System.Windows.Forms.Label Reshpperlv2Lbl;
+        private System.Windows.Forms.Label Res46;
+        private System.Windows.Forms.Label Res45;
+        private System.Windows.Forms.Label Res44;
+        private System.Windows.Forms.Label Res43;
+        private System.Windows.Forms.Label Res42;
+        private System.Windows.Forms.Label Res41;
+        private System.Windows.Forms.Label Res40;
+        private System.Windows.Forms.Label Res39;
+        private System.Windows.Forms.Label Res38;
+        private System.Windows.Forms.Label Res37;
+        private System.Windows.Forms.Label Res36;
+        private System.Windows.Forms.Label Res35;
+        private System.Windows.Forms.Label Res34;
+        private System.Windows.Forms.Label Res33;
+        private System.Windows.Forms.Label Res32;
+        private System.Windows.Forms.Label Res31;
+        private System.Windows.Forms.Label Res30;
+        private System.Windows.Forms.Label Res29;
+        private System.Windows.Forms.Label Res28;
+        private System.Windows.Forms.Label Res27;
+        private System.Windows.Forms.Label Res26;
+        private System.Windows.Forms.Label Res25;
+        private System.Windows.Forms.Label Res24;
+        private System.Windows.Forms.Label Res23;
+        private System.Windows.Forms.Label Res1;
+        private System.Windows.Forms.Label Res2;
+        private System.Windows.Forms.Label Res3;
+        private System.Windows.Forms.Label Res4;
+        private System.Windows.Forms.Label Res5;
+        private System.Windows.Forms.Label Res6;
+        private System.Windows.Forms.Label Res7;
+        private System.Windows.Forms.Label Res8;
+        private System.Windows.Forms.Label Res9;
+        private System.Windows.Forms.Label Res10;
+        private System.Windows.Forms.Label Res11;
+        private System.Windows.Forms.Label Res12;
+        private System.Windows.Forms.Label Res13;
+        private System.Windows.Forms.Label Res14;
+        private System.Windows.Forms.Label Res15;
+        private System.Windows.Forms.Label Res16;
+        private System.Windows.Forms.Label Res17;
+        private System.Windows.Forms.Label Res18;
+        private System.Windows.Forms.Label Res19;
+        private System.Windows.Forms.Label Res20;
+        private System.Windows.Forms.Label Res21;
+        private System.Windows.Forms.Label Res22;
     }
 }
 

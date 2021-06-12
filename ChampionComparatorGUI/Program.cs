@@ -11,6 +11,7 @@ namespace ChampionComparatorGUI
 		public static string patch;
 		public static string GetPatch()
         {
+			// Returns the latest patch number
 			patch = new StreamReader(WebRequest.Create("https://ddragon.leagueoflegends.com/api/versions.json").GetResponse().GetResponseStream()).ReadToEnd().Split(',')[0].TrimStart('[').TrimStart('"').TrimEnd('"');
 			return patch;
 		}
@@ -18,6 +19,8 @@ namespace ChampionComparatorGUI
 
     static class Program
     {
+		/* Ciao Netu
+		 *       /\ I used his code */
 		/// <summary>
 		///  The main entry point for the application.
 		/// </summary>
