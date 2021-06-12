@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using System.IO;
 using System.Net;
 using Newtonsoft.Json;
+using System.Drawing;
 
 namespace ChampionComparatorGUI
 {
@@ -118,6 +119,36 @@ namespace ChampionComparatorGUI
 					}
 				}
 			}
+		}
+
+        private void DarkThemeBtn_Click(object sender, EventArgs e)
+        {
+			// Dark theme, a.k.a. the only good theme
+			if (DarkThemeBtn.Text == "Dark theme")
+            {
+				this.BackColor = Color.FromArgb(19, 20, 20);
+				foreach (Control c in this.Controls)
+				{
+					if (c.GetType() == typeof(Label))
+					{
+						c.ForeColor = Color.White;
+					}
+				}
+				DarkThemeBtn.Text = "Light theme";
+			}
+			else
+            {
+				this.BackColor = DefaultBackColor;
+				foreach (Control c in this.Controls)
+				{
+					if (c.GetType() == typeof(Label))
+					{
+						c.ForeColor = Color.Black;
+					}
+				}
+				DarkThemeBtn.Text = "Dark theme";
+			}
+			
 		}
     }
 }

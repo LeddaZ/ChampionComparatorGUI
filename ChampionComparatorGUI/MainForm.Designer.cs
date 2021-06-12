@@ -112,6 +112,7 @@ namespace ChampionComparatorGUI
             this.Res20 = new System.Windows.Forms.Label();
             this.Res21 = new System.Windows.Forms.Label();
             this.Res22 = new System.Windows.Forms.Label();
+            this.DarkThemeBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstChampTxt
@@ -989,11 +990,23 @@ namespace ChampionComparatorGUI
             this.Res22.Text = "hp1";
             this.Res22.Visible = false;
             // 
+            // DarkThemeBtn
+            // 
+            this.DarkThemeBtn.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DarkThemeBtn.Location = new System.Drawing.Point(474, 12);
+            this.DarkThemeBtn.Name = "DarkThemeBtn";
+            this.DarkThemeBtn.Size = new System.Drawing.Size(139, 34);
+            this.DarkThemeBtn.TabIndex = 86;
+            this.DarkThemeBtn.Text = "Dark theme";
+            this.DarkThemeBtn.UseVisualStyleBackColor = true;
+            this.DarkThemeBtn.Click += new System.EventHandler(this.DarkThemeBtn_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(625, 967);
+            this.Controls.Add(this.DarkThemeBtn);
             this.Controls.Add(this.Res1);
             this.Controls.Add(this.Res2);
             this.Controls.Add(this.Res3);
@@ -1169,6 +1182,7 @@ namespace ChampionComparatorGUI
         private System.Windows.Forms.Label Res20;
         private System.Windows.Forms.Label Res21;
         private System.Windows.Forms.Label Res22;
+        private System.Windows.Forms.Button DarkThemeBtn;
     }
 }
 
