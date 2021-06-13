@@ -18,7 +18,7 @@ namespace ChampionComparatorGUI
 			// Set the latest patch number on the corresponding label
             InitializeComponent();
             PatchLbl.Text += Extra.GetPatch();
-        }
+		}
 
 		private void BtnConfirm_Click(object sender, EventArgs e)
         {
@@ -168,7 +168,7 @@ namespace ChampionComparatorGUI
 			z++;
 			if (z == 10)
             {
-				Process.Start(new ProcessStartInfo("https://bit.ly/3iBOYRo") { UseShellExecute = true });
+				Process.Start(new ProcessStartInfo("https://raw.githubusercontent.com/LeddaZ/LeddaZ.github.io/master/assets/heh.gif") { UseShellExecute = true });
 			}
 		}
     }
