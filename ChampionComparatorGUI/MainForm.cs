@@ -5,12 +5,15 @@ using System.IO;
 using System.Net;
 using Newtonsoft.Json;
 using System.Drawing;
+using System.Diagnostics;
 
 namespace ChampionComparatorGUI
 {
     public partial class Main : Form
     {
-        public Main()
+		int z = 0;
+
+		public Main()
         {
 			// Set the latest patch number on the corresponding label
             InitializeComponent();
@@ -159,5 +162,14 @@ namespace ChampionComparatorGUI
 			}
 			
 		}
-	}
+
+        private void MovementSpdLbl_Click(object sender, EventArgs e)
+        {
+			z++;
+			if (z == 10)
+            {
+				Process.Start(new ProcessStartInfo("https://bit.ly/3iBOYRo") { UseShellExecute = true });
+			}
+		}
+    }
 }

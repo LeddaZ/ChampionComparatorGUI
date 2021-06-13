@@ -115,6 +115,7 @@ namespace ChampionComparatorGUI
             this.DarkThemeBtn = new System.Windows.Forms.Button();
             this.FirstChampPic = new System.Windows.Forms.PictureBox();
             this.SecondChampPic = new System.Windows.Forms.PictureBox();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             ((System.ComponentModel.ISupportInitialize)(this.FirstChampPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SecondChampPic)).BeginInit();
             this.SuspendLayout();
@@ -385,6 +386,7 @@ namespace ChampionComparatorGUI
             this.MovementSpdLbl.Size = new System.Drawing.Size(148, 23);
             this.MovementSpdLbl.TabIndex = 23;
             this.MovementSpdLbl.Text = "Movement speed";
+            this.MovementSpdLbl.Click += new System.EventHandler(this.MovementSpdLbl_Click);
             // 
             // MagicResistancePerLvLbl
             // 
@@ -1211,6 +1213,7 @@ namespace ChampionComparatorGUI
         private System.Windows.Forms.Button DarkThemeBtn;
         private System.Windows.Forms.PictureBox FirstChampPic;
         private System.Windows.Forms.PictureBox SecondChampPic;
+        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }
 
