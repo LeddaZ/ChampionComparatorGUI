@@ -14,10 +14,10 @@ namespace ChampionComparatorGUI
         {
 			// Set the latest patch number on the corresponding label
             InitializeComponent();
-            PatchLbl.Text += Patch.GetPatch();
+            PatchLbl.Text += Extra.GetPatch();
         }
 
-        private void BtnConfirm_Click(object sender, EventArgs e)
+		private void BtnConfirm_Click(object sender, EventArgs e)
         {
 			// Show champ names above the results when "Confirm" is clicked
             string ch1 = FirstChampTxt.Text;
@@ -26,28 +26,29 @@ namespace ChampionComparatorGUI
 			 * original names in the form */
             string champ1 = ch1.ToLower().Contains("mundo") ? "DrMundo" : (ch1.ToLower().Contains("sol") ? "AurelionSol" : (ch1.ToLower().Contains("jarvan") ? "JarvanIV" : ((!ch1.ToLower().Equals("kai'sa") && !ch1.ToLower().Equals("kai sa")) ? (ch1.ToLower().Contains("kha") ? "Khazix" : (ch1.ToLower().Contains("kog") ? "KogMaw" : ((!ch1.ToLower().Equals("leesin") && !ch1.ToLower().Equals("lee sin")) ? (ch1.ToLower().Contains("master") ? "MasterYi" : (ch1.ToLower().Contains("miss") ? "MissFortune" : (ch1.ToLower().Contains("wukong") ? "MonkeyKing" : ((!ch1.ToLower().Equals("rek'sai") && !ch1.ToLower().Equals("reksai") && !ch1.ToLower().Equals("rek sai")) ? (ch1.ToLower().Contains("tahm") ? "TahmKench" : (ch1.ToLower().Contains("twisted") ? "TwistedFate" : ((ch1.ToLower().Equals("vel'koz") || ch1.ToLower().Equals("vel koz")) ? "Velkoz" : (ch1.ToLower().Contains("xin") ? "XinZhao" : (ch1.ToLower().Contains("pasquetto") ? "Shaco" : ((!ch1.Contains(" ")) ? (char.ToUpper(ch1[0]) + ch1.Substring(1).ToLower()) : (char.ToUpper(ch1[0]) + ch1.Substring(1).ToLower().TrimEnd(' ')))))))) : "RekSai")))) : "LeeSin"))) : "Kaisa")));
             string champ2 = ch2.ToLower().Contains("mundo") ? "DrMundo" : (ch2.ToLower().Contains("sol") ? "AurelionSol" : (ch2.ToLower().Contains("jarvan") ? "JarvanIV" : ((!ch2.ToLower().Equals("kai'sa") && !ch2.ToLower().Equals("kai sa")) ? (ch2.ToLower().Contains("kha") ? "Khazix" : (ch2.ToLower().Contains("kog") ? "KogMaw" : ((!ch2.ToLower().Equals("leesin") && !ch2.ToLower().Equals("lee sin")) ? (ch2.ToLower().Contains("master") ? "MasterYi" : (ch2.ToLower().Contains("miss") ? "MissFortune" : (ch2.ToLower().Contains("wukong") ? "MonkeyKing" : ((!ch2.ToLower().Equals("rek'sai") && !ch2.ToLower().Equals("reksai") && !ch2.ToLower().Equals("rek sai")) ? (ch2.ToLower().Contains("tahm") ? "TahmKench" : (ch2.ToLower().Contains("twisted") ? "TwistedFate" : ((ch2.ToLower().Equals("vel'koz") || ch2.ToLower().Equals("vel koz")) ? "Velkoz" : (ch2.ToLower().Contains("xin") ? "XinZhao" : (ch2.ToLower().Contains("pasquetto") ? "Shaco" : ((!ch2.Contains(" ")) ? (char.ToUpper(ch2[0]) + ch2.Substring(1).ToLower()) : (char.ToUpper(ch2[0]) + ch2.Substring(1).ToLower().TrimEnd(' ')))))))) : "RekSai")))) : "LeeSin"))) : "Kaisa")));
-			// Set champion name labels and show them
-			FirstChampResultsLbl.Text = ch1;
-			FirstChampResultsLbl.Visible = true;
-			SecondChampResultsLbl.Text = ch2;
-			SecondChampResultsLbl.Visible = true;
 
 			// Get champ images and resize them so they fit in the PictureBoxes
-			FirstChampPic.ImageLocation = "http://ddragon.leagueoflegends.com/cdn/" + Patch.GetPatch() + "/img/champion/" + champ1 + ".png";
-			SecondChampPic.ImageLocation = "http://ddragon.leagueoflegends.com/cdn/" + Patch.GetPatch() + "/img/champion/" + champ2 + ".png";
+			FirstChampPic.ImageLocation = "http://ddragon.leagueoflegends.com/cdn/" + Extra.GetPatch() + "/img/champion/" + champ1 + ".png";
+			SecondChampPic.ImageLocation = "http://ddragon.leagueoflegends.com/cdn/" + Extra.GetPatch() + "/img/champion/" + champ2 + ".png";
 			FirstChampPic.SizeMode = PictureBoxSizeMode.StretchImage;
 			SecondChampPic.SizeMode = PictureBoxSizeMode.StretchImage;
 			FirstChampPic.Visible = true;
 			SecondChampPic.Visible = true;
 
 			// Get data from LOL servers
-			Champion1.Root root = JsonConvert.DeserializeObject<Champion1.Root>(new StreamReader(WebRequest.Create("http://ddragon.leagueoflegends.com/cdn/" + Patch.GetPatch() + "/data/en_US/champion/" + champ1 + ".json").GetResponse().GetResponseStream()).ReadToEnd());
+			Champion1.Root root = JsonConvert.DeserializeObject<Champion1.Root>(new StreamReader(WebRequest.Create("http://ddragon.leagueoflegends.com/cdn/" + Extra.GetPatch() + "/data/en_US/champion/" + champ1 + ".json").GetResponse().GetResponseStream()).ReadToEnd());
 			List<Champion1.Spell> spells = root.data[champ1].spells;
-			Champion2.Root root2 = JsonConvert.DeserializeObject<Champion2.Root>(new StreamReader(WebRequest.Create("http://ddragon.leagueoflegends.com/cdn/" + Patch.GetPatch() + "/data/en_US/champion/" + champ2 + ".json").GetResponse().GetResponseStream()).ReadToEnd());
+			Champion2.Root root2 = JsonConvert.DeserializeObject<Champion2.Root>(new StreamReader(WebRequest.Create("http://ddragon.leagueoflegends.com/cdn/" + Extra.GetPatch() + "/data/en_US/champion/" + champ2 + ".json").GetResponse().GetResponseStream()).ReadToEnd());
 			List<Champion2.Spell> spells2 = root2.data[champ2].spells;
 
 			if (root.data.TryGetValue(champ1, out var value) && root2.data.TryGetValue(champ2, out var value2))
 			{
+				// Set champion name labels and show them
+				FirstChampResultsLbl.Text = value.name;
+				FirstChampResultsLbl.Visible = true;
+				SecondChampResultsLbl.Text = value2.name;
+				SecondChampResultsLbl.Visible = true;
+
 				// Q cooldown
 				Champion1.Spell spell = spells[0];
 				Champion2.Spell spell2 = spells2[0];
@@ -111,8 +112,8 @@ namespace ChampionComparatorGUI
 				stats[44] = spell7.cooldownBurn;
 				stats[45] = spell8.cooldownBurn;
 
-				// Create an array to store stats labels
-				Label[] labels = new Label[46];
+                // Create an array to store stats labels
+                System.Windows.Forms.Label[] labels = new System.Windows.Forms.Label[46];
 
 				// Set every stat label and show it
 				int i = 0;
@@ -120,7 +121,7 @@ namespace ChampionComparatorGUI
 				{
 					if (c.Name.StartsWith("Res"))
 					{
-						labels[i] = (Label)c;
+						labels[i] = (System.Windows.Forms.Label)c;
 						labels[i].Visible = true;
 						labels[i].Text = stats[i];
                         i++;
@@ -137,7 +138,7 @@ namespace ChampionComparatorGUI
 				this.BackColor = Color.FromArgb(19, 20, 20);
 				foreach (Control c in this.Controls)
 				{
-					if (c.GetType() == typeof(Label))
+					if (c.GetType() == typeof(System.Windows.Forms.Label))
 					{
 						c.ForeColor = Color.White;
 					}
@@ -149,7 +150,7 @@ namespace ChampionComparatorGUI
 				this.BackColor = DefaultBackColor;
 				foreach (Control c in this.Controls)
 				{
-					if (c.GetType() == typeof(Label))
+					if (c.GetType() == typeof(System.Windows.Forms.Label))
 					{
 						c.ForeColor = Color.Black;
 					}
@@ -158,5 +159,5 @@ namespace ChampionComparatorGUI
 			}
 			
 		}
-    }
+	}
 }

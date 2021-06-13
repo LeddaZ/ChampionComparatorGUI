@@ -1115,7 +1115,7 @@ namespace ChampionComparatorGUI
             this.Controls.Add(this.FirstChampLbl);
             this.Controls.Add(this.FirstChampTxt);
             this.Name = "Main";
-            this.Text = "ChampionComparatorGUI";
+            this.Text = "ChampionComparatorGUI v3";
             ((System.ComponentModel.ISupportInitialize)(this.FirstChampPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SecondChampPic)).EndInit();
             this.ResumeLayout(false);

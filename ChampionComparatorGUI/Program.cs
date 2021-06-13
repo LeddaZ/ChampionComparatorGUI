@@ -6,16 +6,17 @@ using System.Windows.Forms;
 namespace ChampionComparatorGUI
 {
 
-    public static class Patch
+    public static class Extra
 	{
 		public static string patch;
 		public static string GetPatch()
-        {
+		{
 			// Returns the latest patch number
 			patch = new StreamReader(WebRequest.Create("https://ddragon.leagueoflegends.com/api/versions.json").GetResponse().GetResponseStream()).ReadToEnd().Split(',')[0].TrimStart('[').TrimStart('"').TrimEnd('"');
 			return patch;
 		}
-	}
+
+    }
 
     static class Program
     {
@@ -27,10 +28,10 @@ namespace ChampionComparatorGUI
 		[STAThread]
 		static void Main()
 			{
-				Application.SetHighDpiMode(HighDpiMode.SystemAware);
-				Application.EnableVisualStyles();
-				Application.SetCompatibleTextRenderingDefault(false);
-				Application.Run(new Main());
+				System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+				System.Windows.Forms.Application.EnableVisualStyles();
+				System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+				System.Windows.Forms.Application.Run(new Main());
 			}
 		}
 	}
