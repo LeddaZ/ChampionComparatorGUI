@@ -115,7 +115,6 @@ namespace ChampionComparatorGUI
             this.DarkThemeBtn = new System.Windows.Forms.Button();
             this.FirstChampPic = new System.Windows.Forms.PictureBox();
             this.SecondChampPic = new System.Windows.Forms.PictureBox();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             ((System.ComponentModel.ISupportInitialize)(this.FirstChampPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SecondChampPic)).BeginInit();
             this.SuspendLayout();
@@ -1213,7 +1212,6 @@ namespace ChampionComparatorGUI
         private System.Windows.Forms.Button DarkThemeBtn;
         private System.Windows.Forms.PictureBox FirstChampPic;
         private System.Windows.Forms.PictureBox SecondChampPic;
-        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }
 

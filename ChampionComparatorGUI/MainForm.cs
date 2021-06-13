@@ -116,7 +116,7 @@ namespace ChampionComparatorGUI
 				stats[45] = spell8.cooldownBurn;
 
                 // Create an array to store stats labels
-                System.Windows.Forms.Label[] labels = new System.Windows.Forms.Label[46];
+                Label[] labels = new Label[46];
 
 				// Set every stat label and show it
 				int i = 0;
@@ -124,7 +124,7 @@ namespace ChampionComparatorGUI
 				{
 					if (c.Name.StartsWith("Res"))
 					{
-						labels[i] = (System.Windows.Forms.Label)c;
+						labels[i] = (Label)c;
 						labels[i].Visible = true;
 						labels[i].Text = stats[i];
                         i++;
@@ -141,7 +141,7 @@ namespace ChampionComparatorGUI
 				this.BackColor = Color.FromArgb(19, 20, 20);
 				foreach (Control c in this.Controls)
 				{
-					if (c.GetType() == typeof(System.Windows.Forms.Label))
+					if (c.GetType() == typeof(Label))
 					{
 						c.ForeColor = Color.White;
 					}
@@ -153,7 +153,7 @@ namespace ChampionComparatorGUI
 				this.BackColor = DefaultBackColor;
 				foreach (Control c in this.Controls)
 				{
-					if (c.GetType() == typeof(System.Windows.Forms.Label))
+					if (c.GetType() == typeof(Label))
 					{
 						c.ForeColor = Color.Black;
 					}
