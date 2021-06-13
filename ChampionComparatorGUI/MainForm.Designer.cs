@@ -113,12 +113,16 @@ namespace ChampionComparatorGUI
             this.Res21 = new System.Windows.Forms.Label();
             this.Res22 = new System.Windows.Forms.Label();
             this.DarkThemeBtn = new System.Windows.Forms.Button();
+            this.FirstChampPic = new System.Windows.Forms.PictureBox();
+            this.SecondChampPic = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.FirstChampPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SecondChampPic)).BeginInit();
             this.SuspendLayout();
             // 
             // FirstChampTxt
             // 
             this.FirstChampTxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FirstChampTxt.Location = new System.Drawing.Point(12, 72);
+            this.FirstChampTxt.Location = new System.Drawing.Point(12, 40);
             this.FirstChampTxt.Name = "FirstChampTxt";
             this.FirstChampTxt.Size = new System.Drawing.Size(144, 34);
             this.FirstChampTxt.TabIndex = 0;
@@ -127,7 +131,7 @@ namespace ChampionComparatorGUI
             // 
             this.FirstChampLbl.AutoSize = true;
             this.FirstChampLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FirstChampLbl.Location = new System.Drawing.Point(12, 41);
+            this.FirstChampLbl.Location = new System.Drawing.Point(12, 9);
             this.FirstChampLbl.Name = "FirstChampLbl";
             this.FirstChampLbl.Size = new System.Drawing.Size(144, 28);
             this.FirstChampLbl.TabIndex = 1;
@@ -136,7 +140,7 @@ namespace ChampionComparatorGUI
             // SecondChampTxt
             // 
             this.SecondChampTxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.SecondChampTxt.Location = new System.Drawing.Point(233, 72);
+            this.SecondChampTxt.Location = new System.Drawing.Point(233, 40);
             this.SecondChampTxt.Name = "SecondChampTxt";
             this.SecondChampTxt.Size = new System.Drawing.Size(172, 34);
             this.SecondChampTxt.TabIndex = 2;
@@ -145,7 +149,7 @@ namespace ChampionComparatorGUI
             // 
             this.SecondChampLbl.AutoSize = true;
             this.SecondChampLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.SecondChampLbl.Location = new System.Drawing.Point(233, 41);
+            this.SecondChampLbl.Location = new System.Drawing.Point(233, 9);
             this.SecondChampLbl.Name = "SecondChampLbl";
             this.SecondChampLbl.Size = new System.Drawing.Size(172, 28);
             this.SecondChampLbl.TabIndex = 3;
@@ -154,7 +158,7 @@ namespace ChampionComparatorGUI
             // BtnConfirm
             // 
             this.BtnConfirm.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.BtnConfirm.Location = new System.Drawing.Point(474, 72);
+            this.BtnConfirm.Location = new System.Drawing.Point(474, 40);
             this.BtnConfirm.Name = "BtnConfirm";
             this.BtnConfirm.Size = new System.Drawing.Size(104, 34);
             this.BtnConfirm.TabIndex = 4;
@@ -166,7 +170,7 @@ namespace ChampionComparatorGUI
             // 
             this.PatchLbl.AutoSize = true;
             this.PatchLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PatchLbl.Location = new System.Drawing.Point(12, 9);
+            this.PatchLbl.Location = new System.Drawing.Point(474, 9);
             this.PatchLbl.Name = "PatchLbl";
             this.PatchLbl.Size = new System.Drawing.Size(61, 23);
             this.PatchLbl.TabIndex = 5;
@@ -176,7 +180,7 @@ namespace ChampionComparatorGUI
             // 
             this.HPLbl.AutoSize = true;
             this.HPLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.HPLbl.Location = new System.Drawing.Point(12, 215);
+            this.HPLbl.Location = new System.Drawing.Point(12, 238);
             this.HPLbl.Name = "HPLbl";
             this.HPLbl.Size = new System.Drawing.Size(32, 23);
             this.HPLbl.TabIndex = 6;
@@ -186,7 +190,7 @@ namespace ChampionComparatorGUI
             // 
             this.HPPerLvLbl.AutoSize = true;
             this.HPPerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.HPPerLvLbl.Location = new System.Drawing.Point(12, 239);
+            this.HPPerLvLbl.Location = new System.Drawing.Point(12, 262);
             this.HPPerLvLbl.Name = "HPPerLvLbl";
             this.HPPerLvLbl.Size = new System.Drawing.Size(101, 23);
             this.HPPerLvLbl.TabIndex = 7;
@@ -196,7 +200,7 @@ namespace ChampionComparatorGUI
             // 
             this.HPRegenPerLvLbl.AutoSize = true;
             this.HPRegenPerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.HPRegenPerLvLbl.Location = new System.Drawing.Point(12, 286);
+            this.HPRegenPerLvLbl.Location = new System.Drawing.Point(12, 309);
             this.HPRegenPerLvLbl.Name = "HPRegenPerLvLbl";
             this.HPRegenPerLvLbl.Size = new System.Drawing.Size(150, 23);
             this.HPRegenPerLvLbl.TabIndex = 9;
@@ -206,7 +210,7 @@ namespace ChampionComparatorGUI
             // 
             this.HPRegenLbl.AutoSize = true;
             this.HPRegenLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.HPRegenLbl.Location = new System.Drawing.Point(12, 262);
+            this.HPRegenLbl.Location = new System.Drawing.Point(12, 285);
             this.HPRegenLbl.Name = "HPRegenLbl";
             this.HPRegenLbl.Size = new System.Drawing.Size(81, 23);
             this.HPRegenLbl.TabIndex = 8;
@@ -216,7 +220,7 @@ namespace ChampionComparatorGUI
             // 
             this.ManaLbl.AutoSize = true;
             this.ManaLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ManaLbl.Location = new System.Drawing.Point(12, 369);
+            this.ManaLbl.Location = new System.Drawing.Point(12, 392);
             this.ManaLbl.Name = "ManaLbl";
             this.ManaLbl.Size = new System.Drawing.Size(53, 23);
             this.ManaLbl.TabIndex = 11;
@@ -226,7 +230,7 @@ namespace ChampionComparatorGUI
             // 
             this.TypeLbl.AutoSize = true;
             this.TypeLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TypeLbl.Location = new System.Drawing.Point(12, 345);
+            this.TypeLbl.Location = new System.Drawing.Point(12, 368);
             this.TypeLbl.Name = "TypeLbl";
             this.TypeLbl.Size = new System.Drawing.Size(45, 23);
             this.TypeLbl.TabIndex = 10;
@@ -236,7 +240,7 @@ namespace ChampionComparatorGUI
             // 
             this.ManaRegenPerLvLbl.AutoSize = true;
             this.ManaRegenPerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ManaRegenPerLvLbl.Location = new System.Drawing.Point(12, 439);
+            this.ManaRegenPerLvLbl.Location = new System.Drawing.Point(12, 462);
             this.ManaRegenPerLvLbl.Name = "ManaRegenPerLvLbl";
             this.ManaRegenPerLvLbl.Size = new System.Drawing.Size(171, 23);
             this.ManaRegenPerLvLbl.TabIndex = 13;
@@ -246,7 +250,7 @@ namespace ChampionComparatorGUI
             // 
             this.ManaRegenLbl.AutoSize = true;
             this.ManaRegenLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ManaRegenLbl.Location = new System.Drawing.Point(12, 415);
+            this.ManaRegenLbl.Location = new System.Drawing.Point(12, 438);
             this.ManaRegenLbl.Name = "ManaRegenLbl";
             this.ManaRegenLbl.Size = new System.Drawing.Size(102, 23);
             this.ManaRegenLbl.TabIndex = 12;
@@ -256,7 +260,7 @@ namespace ChampionComparatorGUI
             // 
             this.MagicResistanceLbl.AutoSize = true;
             this.MagicResistanceLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.MagicResistanceLbl.Location = new System.Drawing.Point(12, 739);
+            this.MagicResistanceLbl.Location = new System.Drawing.Point(12, 762);
             this.MagicResistanceLbl.Name = "MagicResistanceLbl";
             this.MagicResistanceLbl.Size = new System.Drawing.Size(136, 23);
             this.MagicResistanceLbl.TabIndex = 21;
@@ -266,7 +270,7 @@ namespace ChampionComparatorGUI
             // 
             this.ArmorPerLvLbl.AutoSize = true;
             this.ArmorPerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ArmorPerLvLbl.Location = new System.Drawing.Point(12, 678);
+            this.ArmorPerLvLbl.Location = new System.Drawing.Point(12, 701);
             this.ArmorPerLvLbl.Name = "ArmorPerLvLbl";
             this.ArmorPerLvLbl.Size = new System.Drawing.Size(127, 23);
             this.ArmorPerLvLbl.TabIndex = 20;
@@ -276,7 +280,7 @@ namespace ChampionComparatorGUI
             // 
             this.ArmorLbl.AutoSize = true;
             this.ArmorLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ArmorLbl.Location = new System.Drawing.Point(12, 655);
+            this.ArmorLbl.Location = new System.Drawing.Point(12, 678);
             this.ArmorLbl.Name = "ArmorLbl";
             this.ArmorLbl.Size = new System.Drawing.Size(58, 23);
             this.ArmorLbl.TabIndex = 19;
@@ -286,7 +290,7 @@ namespace ChampionComparatorGUI
             // 
             this.AtkSpdPerLvLbl.AutoSize = true;
             this.AtkSpdPerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AtkSpdPerLvLbl.Location = new System.Drawing.Point(12, 594);
+            this.AtkSpdPerLvLbl.Location = new System.Drawing.Point(12, 617);
             this.AtkSpdPerLvLbl.Name = "AtkSpdPerLvLbl";
             this.AtkSpdPerLvLbl.Size = new System.Drawing.Size(177, 23);
             this.AtkSpdPerLvLbl.TabIndex = 18;
@@ -296,7 +300,7 @@ namespace ChampionComparatorGUI
             // 
             this.AtkSpdLbl.AutoSize = true;
             this.AtkSpdLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AtkSpdLbl.Location = new System.Drawing.Point(12, 571);
+            this.AtkSpdLbl.Location = new System.Drawing.Point(12, 594);
             this.AtkSpdLbl.Name = "AtkSpdLbl";
             this.AtkSpdLbl.Size = new System.Drawing.Size(108, 23);
             this.AtkSpdLbl.TabIndex = 17;
@@ -306,7 +310,7 @@ namespace ChampionComparatorGUI
             // 
             this.AtkRangeLbl.AutoSize = true;
             this.AtkRangeLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AtkRangeLbl.Location = new System.Drawing.Point(12, 547);
+            this.AtkRangeLbl.Location = new System.Drawing.Point(12, 570);
             this.AtkRangeLbl.Name = "AtkRangeLbl";
             this.AtkRangeLbl.Size = new System.Drawing.Size(107, 23);
             this.AtkRangeLbl.TabIndex = 16;
@@ -316,7 +320,7 @@ namespace ChampionComparatorGUI
             // 
             this.AtkDmgPerLvLbl.AutoSize = true;
             this.AtkDmgPerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AtkDmgPerLvLbl.Location = new System.Drawing.Point(12, 524);
+            this.AtkDmgPerLvLbl.Location = new System.Drawing.Point(12, 547);
             this.AtkDmgPerLvLbl.Name = "AtkDmgPerLvLbl";
             this.AtkDmgPerLvLbl.Size = new System.Drawing.Size(194, 23);
             this.AtkDmgPerLvLbl.TabIndex = 15;
@@ -326,7 +330,7 @@ namespace ChampionComparatorGUI
             // 
             this.AtkDmgLbl.AutoSize = true;
             this.AtkDmgLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AtkDmgLbl.Location = new System.Drawing.Point(12, 500);
+            this.AtkDmgLbl.Location = new System.Drawing.Point(12, 523);
             this.AtkDmgLbl.Name = "AtkDmgLbl";
             this.AtkDmgLbl.Size = new System.Drawing.Size(125, 23);
             this.AtkDmgLbl.TabIndex = 14;
@@ -336,7 +340,7 @@ namespace ChampionComparatorGUI
             // 
             this.RCoolLbl.AutoSize = true;
             this.RCoolLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RCoolLbl.Location = new System.Drawing.Point(12, 926);
+            this.RCoolLbl.Location = new System.Drawing.Point(12, 949);
             this.RCoolLbl.Name = "RCoolLbl";
             this.RCoolLbl.Size = new System.Drawing.Size(99, 23);
             this.RCoolLbl.TabIndex = 28;
@@ -346,7 +350,7 @@ namespace ChampionComparatorGUI
             // 
             this.ECoolLbl.AutoSize = true;
             this.ECoolLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ECoolLbl.Location = new System.Drawing.Point(12, 903);
+            this.ECoolLbl.Location = new System.Drawing.Point(12, 926);
             this.ECoolLbl.Name = "ECoolLbl";
             this.ECoolLbl.Size = new System.Drawing.Size(98, 23);
             this.ECoolLbl.TabIndex = 27;
@@ -356,7 +360,7 @@ namespace ChampionComparatorGUI
             // 
             this.WCoolLbl.AutoSize = true;
             this.WCoolLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.WCoolLbl.Location = new System.Drawing.Point(12, 879);
+            this.WCoolLbl.Location = new System.Drawing.Point(12, 902);
             this.WCoolLbl.Name = "WCoolLbl";
             this.WCoolLbl.Size = new System.Drawing.Size(105, 23);
             this.WCoolLbl.TabIndex = 26;
@@ -366,7 +370,7 @@ namespace ChampionComparatorGUI
             // 
             this.QCoolLbl.AutoSize = true;
             this.QCoolLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.QCoolLbl.Location = new System.Drawing.Point(12, 856);
+            this.QCoolLbl.Location = new System.Drawing.Point(12, 879);
             this.QCoolLbl.Name = "QCoolLbl";
             this.QCoolLbl.Size = new System.Drawing.Size(102, 23);
             this.QCoolLbl.TabIndex = 25;
@@ -376,7 +380,7 @@ namespace ChampionComparatorGUI
             // 
             this.MovementSpdLbl.AutoSize = true;
             this.MovementSpdLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.MovementSpdLbl.Location = new System.Drawing.Point(12, 798);
+            this.MovementSpdLbl.Location = new System.Drawing.Point(12, 821);
             this.MovementSpdLbl.Name = "MovementSpdLbl";
             this.MovementSpdLbl.Size = new System.Drawing.Size(148, 23);
             this.MovementSpdLbl.TabIndex = 23;
@@ -386,7 +390,7 @@ namespace ChampionComparatorGUI
             // 
             this.MagicResistancePerLvLbl.AutoSize = true;
             this.MagicResistancePerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.MagicResistancePerLvLbl.Location = new System.Drawing.Point(12, 762);
+            this.MagicResistancePerLvLbl.Location = new System.Drawing.Point(12, 785);
             this.MagicResistancePerLvLbl.Name = "MagicResistancePerLvLbl";
             this.MagicResistancePerLvLbl.Size = new System.Drawing.Size(205, 23);
             this.MagicResistancePerLvLbl.TabIndex = 22;
@@ -396,7 +400,7 @@ namespace ChampionComparatorGUI
             // 
             this.ManaPerLvLbl.AutoSize = true;
             this.ManaPerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ManaPerLvLbl.Location = new System.Drawing.Point(12, 392);
+            this.ManaPerLvLbl.Location = new System.Drawing.Point(12, 415);
             this.ManaPerLvLbl.Name = "ManaPerLvLbl";
             this.ManaPerLvLbl.Size = new System.Drawing.Size(122, 23);
             this.ManaPerLvLbl.TabIndex = 30;
@@ -406,7 +410,7 @@ namespace ChampionComparatorGUI
             // 
             this.HPStatsLbl.AutoSize = true;
             this.HPStatsLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.HPStatsLbl.Location = new System.Drawing.Point(12, 192);
+            this.HPStatsLbl.Location = new System.Drawing.Point(12, 215);
             this.HPStatsLbl.Name = "HPStatsLbl";
             this.HPStatsLbl.Size = new System.Drawing.Size(75, 23);
             this.HPStatsLbl.TabIndex = 31;
@@ -416,7 +420,7 @@ namespace ChampionComparatorGUI
             // 
             this.ManaStatsLbl.AutoSize = true;
             this.ManaStatsLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ManaStatsLbl.Location = new System.Drawing.Point(12, 322);
+            this.ManaStatsLbl.Location = new System.Drawing.Point(12, 345);
             this.ManaStatsLbl.Name = "ManaStatsLbl";
             this.ManaStatsLbl.Size = new System.Drawing.Size(96, 23);
             this.ManaStatsLbl.TabIndex = 32;
@@ -426,7 +430,7 @@ namespace ChampionComparatorGUI
             // 
             this.AtkStatsLbl.AutoSize = true;
             this.AtkStatsLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.AtkStatsLbl.Location = new System.Drawing.Point(12, 477);
+            this.AtkStatsLbl.Location = new System.Drawing.Point(12, 500);
             this.AtkStatsLbl.Name = "AtkStatsLbl";
             this.AtkStatsLbl.Size = new System.Drawing.Size(105, 23);
             this.AtkStatsLbl.TabIndex = 33;
@@ -436,7 +440,7 @@ namespace ChampionComparatorGUI
             // 
             this.ArmorStatsLbl.AutoSize = true;
             this.ArmorStatsLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ArmorStatsLbl.Location = new System.Drawing.Point(12, 632);
+            this.ArmorStatsLbl.Location = new System.Drawing.Point(12, 655);
             this.ArmorStatsLbl.Name = "ArmorStatsLbl";
             this.ArmorStatsLbl.Size = new System.Drawing.Size(104, 23);
             this.ArmorStatsLbl.TabIndex = 34;
@@ -446,7 +450,7 @@ namespace ChampionComparatorGUI
             // 
             this.MagicStatsLbl.AutoSize = true;
             this.MagicStatsLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.MagicStatsLbl.Location = new System.Drawing.Point(12, 716);
+            this.MagicStatsLbl.Location = new System.Drawing.Point(12, 739);
             this.MagicStatsLbl.Name = "MagicStatsLbl";
             this.MagicStatsLbl.Size = new System.Drawing.Size(101, 23);
             this.MagicStatsLbl.TabIndex = 35;
@@ -456,7 +460,7 @@ namespace ChampionComparatorGUI
             // 
             this.CoolStatsLbl.AutoSize = true;
             this.CoolStatsLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.CoolStatsLbl.Location = new System.Drawing.Point(12, 833);
+            this.CoolStatsLbl.Location = new System.Drawing.Point(12, 856);
             this.CoolStatsLbl.Name = "CoolStatsLbl";
             this.CoolStatsLbl.Size = new System.Drawing.Size(133, 23);
             this.CoolStatsLbl.TabIndex = 36;
@@ -466,7 +470,7 @@ namespace ChampionComparatorGUI
             // 
             this.FirstChampResultsLbl.AutoSize = true;
             this.FirstChampResultsLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.FirstChampResultsLbl.Location = new System.Drawing.Point(254, 139);
+            this.FirstChampResultsLbl.Location = new System.Drawing.Point(254, 172);
             this.FirstChampResultsLbl.Name = "FirstChampResultsLbl";
             this.FirstChampResultsLbl.Size = new System.Drawing.Size(86, 28);
             this.FirstChampResultsLbl.TabIndex = 37;
@@ -477,7 +481,7 @@ namespace ChampionComparatorGUI
             // 
             this.SecondChampResultsLbl.AutoSize = true;
             this.SecondChampResultsLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.SecondChampResultsLbl.Location = new System.Drawing.Point(436, 139);
+            this.SecondChampResultsLbl.Location = new System.Drawing.Point(436, 172);
             this.SecondChampResultsLbl.Name = "SecondChampResultsLbl";
             this.SecondChampResultsLbl.Size = new System.Drawing.Size(86, 28);
             this.SecondChampResultsLbl.TabIndex = 39;
@@ -488,7 +492,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res46.AutoSize = true;
             this.Res46.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res46.Location = new System.Drawing.Point(436, 926);
+            this.Res46.Location = new System.Drawing.Point(436, 949);
             this.Res46.Name = "Res46";
             this.Res46.Size = new System.Drawing.Size(39, 23);
             this.Res46.TabIndex = 40;
@@ -499,7 +503,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res45.AutoSize = true;
             this.Res45.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res45.Location = new System.Drawing.Point(254, 926);
+            this.Res45.Location = new System.Drawing.Point(254, 949);
             this.Res45.Name = "Res45";
             this.Res45.Size = new System.Drawing.Size(39, 23);
             this.Res45.TabIndex = 41;
@@ -510,7 +514,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res44.AutoSize = true;
             this.Res44.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res44.Location = new System.Drawing.Point(436, 903);
+            this.Res44.Location = new System.Drawing.Point(436, 926);
             this.Res44.Name = "Res44";
             this.Res44.Size = new System.Drawing.Size(39, 23);
             this.Res44.TabIndex = 42;
@@ -521,7 +525,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res43.AutoSize = true;
             this.Res43.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res43.Location = new System.Drawing.Point(254, 902);
+            this.Res43.Location = new System.Drawing.Point(254, 925);
             this.Res43.Name = "Res43";
             this.Res43.Size = new System.Drawing.Size(39, 23);
             this.Res43.TabIndex = 43;
@@ -532,7 +536,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res42.AutoSize = true;
             this.Res42.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res42.Location = new System.Drawing.Point(436, 879);
+            this.Res42.Location = new System.Drawing.Point(436, 902);
             this.Res42.Name = "Res42";
             this.Res42.Size = new System.Drawing.Size(39, 23);
             this.Res42.TabIndex = 44;
@@ -543,7 +547,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res41.AutoSize = true;
             this.Res41.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res41.Location = new System.Drawing.Point(254, 879);
+            this.Res41.Location = new System.Drawing.Point(254, 902);
             this.Res41.Name = "Res41";
             this.Res41.Size = new System.Drawing.Size(39, 23);
             this.Res41.TabIndex = 45;
@@ -554,7 +558,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res40.AutoSize = true;
             this.Res40.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res40.Location = new System.Drawing.Point(436, 856);
+            this.Res40.Location = new System.Drawing.Point(436, 879);
             this.Res40.Name = "Res40";
             this.Res40.Size = new System.Drawing.Size(39, 23);
             this.Res40.TabIndex = 46;
@@ -565,7 +569,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res39.AutoSize = true;
             this.Res39.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res39.Location = new System.Drawing.Point(254, 856);
+            this.Res39.Location = new System.Drawing.Point(254, 879);
             this.Res39.Name = "Res39";
             this.Res39.Size = new System.Drawing.Size(39, 23);
             this.Res39.TabIndex = 47;
@@ -576,7 +580,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res38.AutoSize = true;
             this.Res38.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res38.Location = new System.Drawing.Point(436, 798);
+            this.Res38.Location = new System.Drawing.Point(436, 821);
             this.Res38.Name = "Res38";
             this.Res38.Size = new System.Drawing.Size(39, 23);
             this.Res38.TabIndex = 48;
@@ -587,7 +591,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res37.AutoSize = true;
             this.Res37.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res37.Location = new System.Drawing.Point(254, 798);
+            this.Res37.Location = new System.Drawing.Point(254, 821);
             this.Res37.Name = "Res37";
             this.Res37.Size = new System.Drawing.Size(39, 23);
             this.Res37.TabIndex = 49;
@@ -598,7 +602,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res36.AutoSize = true;
             this.Res36.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res36.Location = new System.Drawing.Point(436, 762);
+            this.Res36.Location = new System.Drawing.Point(436, 785);
             this.Res36.Name = "Res36";
             this.Res36.Size = new System.Drawing.Size(39, 23);
             this.Res36.TabIndex = 50;
@@ -609,7 +613,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res35.AutoSize = true;
             this.Res35.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res35.Location = new System.Drawing.Point(254, 762);
+            this.Res35.Location = new System.Drawing.Point(254, 785);
             this.Res35.Name = "Res35";
             this.Res35.Size = new System.Drawing.Size(39, 23);
             this.Res35.TabIndex = 51;
@@ -620,7 +624,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res34.AutoSize = true;
             this.Res34.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res34.Location = new System.Drawing.Point(436, 739);
+            this.Res34.Location = new System.Drawing.Point(436, 762);
             this.Res34.Name = "Res34";
             this.Res34.Size = new System.Drawing.Size(39, 23);
             this.Res34.TabIndex = 52;
@@ -631,7 +635,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res33.AutoSize = true;
             this.Res33.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res33.Location = new System.Drawing.Point(254, 739);
+            this.Res33.Location = new System.Drawing.Point(254, 762);
             this.Res33.Name = "Res33";
             this.Res33.Size = new System.Drawing.Size(39, 23);
             this.Res33.TabIndex = 53;
@@ -642,7 +646,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res32.AutoSize = true;
             this.Res32.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res32.Location = new System.Drawing.Point(436, 678);
+            this.Res32.Location = new System.Drawing.Point(436, 701);
             this.Res32.Name = "Res32";
             this.Res32.Size = new System.Drawing.Size(39, 23);
             this.Res32.TabIndex = 54;
@@ -653,7 +657,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res31.AutoSize = true;
             this.Res31.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res31.Location = new System.Drawing.Point(254, 678);
+            this.Res31.Location = new System.Drawing.Point(254, 701);
             this.Res31.Name = "Res31";
             this.Res31.Size = new System.Drawing.Size(39, 23);
             this.Res31.TabIndex = 55;
@@ -664,7 +668,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res30.AutoSize = true;
             this.Res30.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res30.Location = new System.Drawing.Point(436, 655);
+            this.Res30.Location = new System.Drawing.Point(436, 678);
             this.Res30.Name = "Res30";
             this.Res30.Size = new System.Drawing.Size(39, 23);
             this.Res30.TabIndex = 56;
@@ -675,7 +679,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res29.AutoSize = true;
             this.Res29.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res29.Location = new System.Drawing.Point(254, 655);
+            this.Res29.Location = new System.Drawing.Point(254, 678);
             this.Res29.Name = "Res29";
             this.Res29.Size = new System.Drawing.Size(39, 23);
             this.Res29.TabIndex = 57;
@@ -686,7 +690,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res28.AutoSize = true;
             this.Res28.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res28.Location = new System.Drawing.Point(436, 594);
+            this.Res28.Location = new System.Drawing.Point(436, 617);
             this.Res28.Name = "Res28";
             this.Res28.Size = new System.Drawing.Size(39, 23);
             this.Res28.TabIndex = 58;
@@ -697,7 +701,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res27.AutoSize = true;
             this.Res27.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res27.Location = new System.Drawing.Point(254, 594);
+            this.Res27.Location = new System.Drawing.Point(254, 617);
             this.Res27.Name = "Res27";
             this.Res27.Size = new System.Drawing.Size(39, 23);
             this.Res27.TabIndex = 59;
@@ -708,7 +712,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res26.AutoSize = true;
             this.Res26.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res26.Location = new System.Drawing.Point(436, 571);
+            this.Res26.Location = new System.Drawing.Point(436, 594);
             this.Res26.Name = "Res26";
             this.Res26.Size = new System.Drawing.Size(39, 23);
             this.Res26.TabIndex = 60;
@@ -719,7 +723,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res25.AutoSize = true;
             this.Res25.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res25.Location = new System.Drawing.Point(254, 571);
+            this.Res25.Location = new System.Drawing.Point(254, 594);
             this.Res25.Name = "Res25";
             this.Res25.Size = new System.Drawing.Size(39, 23);
             this.Res25.TabIndex = 61;
@@ -730,7 +734,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res24.AutoSize = true;
             this.Res24.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res24.Location = new System.Drawing.Point(436, 546);
+            this.Res24.Location = new System.Drawing.Point(436, 569);
             this.Res24.Name = "Res24";
             this.Res24.Size = new System.Drawing.Size(39, 23);
             this.Res24.TabIndex = 62;
@@ -741,7 +745,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res23.AutoSize = true;
             this.Res23.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res23.Location = new System.Drawing.Point(254, 546);
+            this.Res23.Location = new System.Drawing.Point(254, 569);
             this.Res23.Name = "Res23";
             this.Res23.Size = new System.Drawing.Size(39, 23);
             this.Res23.TabIndex = 63;
@@ -752,7 +756,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res1.AutoSize = true;
             this.Res1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res1.Location = new System.Drawing.Point(254, 215);
+            this.Res1.Location = new System.Drawing.Point(254, 238);
             this.Res1.Name = "Res1";
             this.Res1.Size = new System.Drawing.Size(39, 23);
             this.Res1.TabIndex = 85;
@@ -763,7 +767,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res2.AutoSize = true;
             this.Res2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res2.Location = new System.Drawing.Point(436, 215);
+            this.Res2.Location = new System.Drawing.Point(436, 238);
             this.Res2.Name = "Res2";
             this.Res2.Size = new System.Drawing.Size(39, 23);
             this.Res2.TabIndex = 84;
@@ -774,7 +778,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res3.AutoSize = true;
             this.Res3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res3.Location = new System.Drawing.Point(254, 239);
+            this.Res3.Location = new System.Drawing.Point(254, 262);
             this.Res3.Name = "Res3";
             this.Res3.Size = new System.Drawing.Size(39, 23);
             this.Res3.TabIndex = 83;
@@ -785,7 +789,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res4.AutoSize = true;
             this.Res4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res4.Location = new System.Drawing.Point(436, 238);
+            this.Res4.Location = new System.Drawing.Point(436, 261);
             this.Res4.Name = "Res4";
             this.Res4.Size = new System.Drawing.Size(39, 23);
             this.Res4.TabIndex = 82;
@@ -796,7 +800,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res5.AutoSize = true;
             this.Res5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res5.Location = new System.Drawing.Point(254, 262);
+            this.Res5.Location = new System.Drawing.Point(254, 285);
             this.Res5.Name = "Res5";
             this.Res5.Size = new System.Drawing.Size(39, 23);
             this.Res5.TabIndex = 81;
@@ -807,7 +811,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res6.AutoSize = true;
             this.Res6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res6.Location = new System.Drawing.Point(436, 261);
+            this.Res6.Location = new System.Drawing.Point(436, 284);
             this.Res6.Name = "Res6";
             this.Res6.Size = new System.Drawing.Size(39, 23);
             this.Res6.TabIndex = 80;
@@ -818,7 +822,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res7.AutoSize = true;
             this.Res7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res7.Location = new System.Drawing.Point(254, 285);
+            this.Res7.Location = new System.Drawing.Point(254, 308);
             this.Res7.Name = "Res7";
             this.Res7.Size = new System.Drawing.Size(39, 23);
             this.Res7.TabIndex = 79;
@@ -829,7 +833,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res8.AutoSize = true;
             this.Res8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res8.Location = new System.Drawing.Point(436, 286);
+            this.Res8.Location = new System.Drawing.Point(436, 309);
             this.Res8.Name = "Res8";
             this.Res8.Size = new System.Drawing.Size(39, 23);
             this.Res8.TabIndex = 78;
@@ -840,7 +844,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res9.AutoSize = true;
             this.Res9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res9.Location = new System.Drawing.Point(254, 345);
+            this.Res9.Location = new System.Drawing.Point(254, 368);
             this.Res9.Name = "Res9";
             this.Res9.Size = new System.Drawing.Size(39, 23);
             this.Res9.TabIndex = 77;
@@ -851,7 +855,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res10.AutoSize = true;
             this.Res10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res10.Location = new System.Drawing.Point(436, 346);
+            this.Res10.Location = new System.Drawing.Point(436, 369);
             this.Res10.Name = "Res10";
             this.Res10.Size = new System.Drawing.Size(39, 23);
             this.Res10.TabIndex = 76;
@@ -862,7 +866,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res11.AutoSize = true;
             this.Res11.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res11.Location = new System.Drawing.Point(254, 369);
+            this.Res11.Location = new System.Drawing.Point(254, 392);
             this.Res11.Name = "Res11";
             this.Res11.Size = new System.Drawing.Size(39, 23);
             this.Res11.TabIndex = 75;
@@ -873,7 +877,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res12.AutoSize = true;
             this.Res12.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res12.Location = new System.Drawing.Point(436, 369);
+            this.Res12.Location = new System.Drawing.Point(436, 392);
             this.Res12.Name = "Res12";
             this.Res12.Size = new System.Drawing.Size(39, 23);
             this.Res12.TabIndex = 74;
@@ -884,7 +888,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res13.AutoSize = true;
             this.Res13.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res13.Location = new System.Drawing.Point(254, 392);
+            this.Res13.Location = new System.Drawing.Point(254, 415);
             this.Res13.Name = "Res13";
             this.Res13.Size = new System.Drawing.Size(39, 23);
             this.Res13.TabIndex = 73;
@@ -895,7 +899,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res14.AutoSize = true;
             this.Res14.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res14.Location = new System.Drawing.Point(436, 392);
+            this.Res14.Location = new System.Drawing.Point(436, 415);
             this.Res14.Name = "Res14";
             this.Res14.Size = new System.Drawing.Size(39, 23);
             this.Res14.TabIndex = 72;
@@ -906,7 +910,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res15.AutoSize = true;
             this.Res15.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res15.Location = new System.Drawing.Point(254, 415);
+            this.Res15.Location = new System.Drawing.Point(254, 438);
             this.Res15.Name = "Res15";
             this.Res15.Size = new System.Drawing.Size(39, 23);
             this.Res15.TabIndex = 71;
@@ -917,7 +921,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res16.AutoSize = true;
             this.Res16.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res16.Location = new System.Drawing.Point(436, 415);
+            this.Res16.Location = new System.Drawing.Point(436, 438);
             this.Res16.Name = "Res16";
             this.Res16.Size = new System.Drawing.Size(39, 23);
             this.Res16.TabIndex = 70;
@@ -928,7 +932,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res17.AutoSize = true;
             this.Res17.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res17.Location = new System.Drawing.Point(254, 439);
+            this.Res17.Location = new System.Drawing.Point(254, 462);
             this.Res17.Name = "Res17";
             this.Res17.Size = new System.Drawing.Size(39, 23);
             this.Res17.TabIndex = 69;
@@ -939,7 +943,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res18.AutoSize = true;
             this.Res18.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res18.Location = new System.Drawing.Point(436, 439);
+            this.Res18.Location = new System.Drawing.Point(436, 462);
             this.Res18.Name = "Res18";
             this.Res18.Size = new System.Drawing.Size(39, 23);
             this.Res18.TabIndex = 68;
@@ -950,7 +954,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res19.AutoSize = true;
             this.Res19.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res19.Location = new System.Drawing.Point(254, 500);
+            this.Res19.Location = new System.Drawing.Point(254, 523);
             this.Res19.Name = "Res19";
             this.Res19.Size = new System.Drawing.Size(39, 23);
             this.Res19.TabIndex = 67;
@@ -961,7 +965,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res20.AutoSize = true;
             this.Res20.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res20.Location = new System.Drawing.Point(436, 500);
+            this.Res20.Location = new System.Drawing.Point(436, 523);
             this.Res20.Name = "Res20";
             this.Res20.Size = new System.Drawing.Size(39, 23);
             this.Res20.TabIndex = 66;
@@ -972,7 +976,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res21.AutoSize = true;
             this.Res21.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res21.Location = new System.Drawing.Point(254, 523);
+            this.Res21.Location = new System.Drawing.Point(254, 546);
             this.Res21.Name = "Res21";
             this.Res21.Size = new System.Drawing.Size(39, 23);
             this.Res21.TabIndex = 65;
@@ -983,7 +987,7 @@ namespace ChampionComparatorGUI
             // 
             this.Res22.AutoSize = true;
             this.Res22.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Res22.Location = new System.Drawing.Point(436, 523);
+            this.Res22.Location = new System.Drawing.Point(436, 546);
             this.Res22.Name = "Res22";
             this.Res22.Size = new System.Drawing.Size(39, 23);
             this.Res22.TabIndex = 64;
@@ -993,7 +997,7 @@ namespace ChampionComparatorGUI
             // DarkThemeBtn
             // 
             this.DarkThemeBtn.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.DarkThemeBtn.Location = new System.Drawing.Point(474, 12);
+            this.DarkThemeBtn.Location = new System.Drawing.Point(637, 9);
             this.DarkThemeBtn.Name = "DarkThemeBtn";
             this.DarkThemeBtn.Size = new System.Drawing.Size(139, 34);
             this.DarkThemeBtn.TabIndex = 86;
@@ -1001,11 +1005,31 @@ namespace ChampionComparatorGUI
             this.DarkThemeBtn.UseVisualStyleBackColor = true;
             this.DarkThemeBtn.Click += new System.EventHandler(this.DarkThemeBtn_Click);
             // 
+            // FirstChampPic
+            // 
+            this.FirstChampPic.Location = new System.Drawing.Point(254, 89);
+            this.FirstChampPic.Name = "FirstChampPic";
+            this.FirstChampPic.Size = new System.Drawing.Size(80, 80);
+            this.FirstChampPic.TabIndex = 87;
+            this.FirstChampPic.TabStop = false;
+            this.FirstChampPic.Visible = false;
+            // 
+            // SecondChampPic
+            // 
+            this.SecondChampPic.Location = new System.Drawing.Point(436, 89);
+            this.SecondChampPic.Name = "SecondChampPic";
+            this.SecondChampPic.Size = new System.Drawing.Size(80, 80);
+            this.SecondChampPic.TabIndex = 88;
+            this.SecondChampPic.TabStop = false;
+            this.SecondChampPic.Visible = false;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(625, 967);
+            this.ClientSize = new System.Drawing.Size(799, 987);
+            this.Controls.Add(this.SecondChampPic);
+            this.Controls.Add(this.FirstChampPic);
             this.Controls.Add(this.DarkThemeBtn);
             this.Controls.Add(this.Res1);
             this.Controls.Add(this.Res2);
@@ -1092,6 +1116,8 @@ namespace ChampionComparatorGUI
             this.Controls.Add(this.FirstChampTxt);
             this.Name = "Main";
             this.Text = "ChampionComparatorGUI";
+            ((System.ComponentModel.ISupportInitialize)(this.FirstChampPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SecondChampPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1183,6 +1209,8 @@ namespace ChampionComparatorGUI
         private System.Windows.Forms.Label Res21;
         private System.Windows.Forms.Label Res22;
         private System.Windows.Forms.Button DarkThemeBtn;
+        private System.Windows.Forms.PictureBox FirstChampPic;
+        private System.Windows.Forms.PictureBox SecondChampPic;
     }
 }
 

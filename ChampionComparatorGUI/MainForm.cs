@@ -32,12 +32,20 @@ namespace ChampionComparatorGUI
 			SecondChampResultsLbl.Text = ch2;
 			SecondChampResultsLbl.Visible = true;
 
-			// idk what this does ¯\_(ツ)_/¯
+			// Get champ images and resize them so they fit in the PictureBoxes
+			FirstChampPic.ImageLocation = "http://ddragon.leagueoflegends.com/cdn/" + Patch.GetPatch() + "/img/champion/" + champ1 + ".png";
+			SecondChampPic.ImageLocation = "http://ddragon.leagueoflegends.com/cdn/" + Patch.GetPatch() + "/img/champion/" + champ2 + ".png";
+			FirstChampPic.SizeMode = PictureBoxSizeMode.StretchImage;
+			SecondChampPic.SizeMode = PictureBoxSizeMode.StretchImage;
+			FirstChampPic.Visible = true;
+			SecondChampPic.Visible = true;
+
+			// Get data from LOL servers
 			Champion1.Root root = JsonConvert.DeserializeObject<Champion1.Root>(new StreamReader(WebRequest.Create("http://ddragon.leagueoflegends.com/cdn/" + Patch.GetPatch() + "/data/en_US/champion/" + champ1 + ".json").GetResponse().GetResponseStream()).ReadToEnd());
 			List<Champion1.Spell> spells = root.data[champ1].spells;
 			Champion2.Root root2 = JsonConvert.DeserializeObject<Champion2.Root>(new StreamReader(WebRequest.Create("http://ddragon.leagueoflegends.com/cdn/" + Patch.GetPatch() + "/data/en_US/champion/" + champ2 + ".json").GetResponse().GetResponseStream()).ReadToEnd());
 			List<Champion2.Spell> spells2 = root2.data[champ2].spells;
-			
+
 			if (root.data.TryGetValue(champ1, out var value) && root2.data.TryGetValue(champ2, out var value2))
 			{
 				// Q cooldown
@@ -115,7 +123,7 @@ namespace ChampionComparatorGUI
 						labels[i] = (Label)c;
 						labels[i].Visible = true;
 						labels[i].Text = stats[i];
-						i++;
+                        i++;
 					}
 				}
 			}
