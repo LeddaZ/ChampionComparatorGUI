@@ -24,12 +24,11 @@ namespace ChampionComparatorGUI
         #region Windows Form Designer generated code
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.FirstChampTxt = new System.Windows.Forms.TextBox();
             this.FirstChampLbl = new System.Windows.Forms.Label();
             this.SecondChampTxt = new System.Windows.Forms.TextBox();
@@ -116,57 +115,52 @@ namespace ChampionComparatorGUI
             this.DarkThemeBtn = new System.Windows.Forms.Button();
             this.FirstChampPic = new System.Windows.Forms.PictureBox();
             this.SecondChampPic = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize) (this.FirstChampPic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize) (this.SecondChampPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FirstChampPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SecondChampPic)).BeginInit();
             this.SuspendLayout();
             // 
             // FirstChampTxt
             // 
-            this.FirstChampTxt.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.FirstChampTxt.Location = new System.Drawing.Point(9, 27);
-            this.FirstChampTxt.Margin = new System.Windows.Forms.Padding(2);
+            this.FirstChampTxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.FirstChampTxt.Location = new System.Drawing.Point(12, 40);
             this.FirstChampTxt.Name = "FirstChampTxt";
-            this.FirstChampTxt.Size = new System.Drawing.Size(153, 26);
+            this.FirstChampTxt.Size = new System.Drawing.Size(144, 34);
             this.FirstChampTxt.TabIndex = 0;
             // 
             // FirstChampLbl
             // 
             this.FirstChampLbl.AutoSize = true;
-            this.FirstChampLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.FirstChampLbl.Location = new System.Drawing.Point(9, 6);
-            this.FirstChampLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.FirstChampLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.FirstChampLbl.Location = new System.Drawing.Point(12, 9);
             this.FirstChampLbl.Name = "FirstChampLbl";
-            this.FirstChampLbl.Size = new System.Drawing.Size(138, 19);
+            this.FirstChampLbl.Size = new System.Drawing.Size(144, 28);
             this.FirstChampLbl.TabIndex = 1;
             this.FirstChampLbl.Text = "First Champion";
             // 
             // SecondChampTxt
             // 
-            this.SecondChampTxt.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.SecondChampTxt.Location = new System.Drawing.Point(9, 78);
-            this.SecondChampTxt.Margin = new System.Windows.Forms.Padding(2);
+            this.SecondChampTxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SecondChampTxt.Location = new System.Drawing.Point(233, 40);
             this.SecondChampTxt.Name = "SecondChampTxt";
-            this.SecondChampTxt.Size = new System.Drawing.Size(153, 26);
+            this.SecondChampTxt.Size = new System.Drawing.Size(172, 34);
             this.SecondChampTxt.TabIndex = 2;
             // 
             // SecondChampLbl
             // 
             this.SecondChampLbl.AutoSize = true;
-            this.SecondChampLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.SecondChampLbl.Location = new System.Drawing.Point(9, 58);
-            this.SecondChampLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.SecondChampLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SecondChampLbl.Location = new System.Drawing.Point(233, 9);
             this.SecondChampLbl.Name = "SecondChampLbl";
-            this.SecondChampLbl.Size = new System.Drawing.Size(162, 19);
+            this.SecondChampLbl.Size = new System.Drawing.Size(172, 28);
             this.SecondChampLbl.TabIndex = 3;
             this.SecondChampLbl.Text = "Second Champion";
             // 
             // BtnConfirm
             // 
-            this.BtnConfirm.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.BtnConfirm.Location = new System.Drawing.Point(10, 112);
-            this.BtnConfirm.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnConfirm.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.BtnConfirm.Location = new System.Drawing.Point(474, 40);
             this.BtnConfirm.Name = "BtnConfirm";
-            this.BtnConfirm.Size = new System.Drawing.Size(99, 26);
+            this.BtnConfirm.Size = new System.Drawing.Size(104, 34);
             this.BtnConfirm.TabIndex = 4;
             this.BtnConfirm.Text = "Confirm";
             this.BtnConfirm.UseVisualStyleBackColor = true;
@@ -175,242 +169,220 @@ namespace ChampionComparatorGUI
             // PatchLbl
             // 
             this.PatchLbl.AutoSize = true;
-            this.PatchLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.PatchLbl.Location = new System.Drawing.Point(475, 37);
-            this.PatchLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.PatchLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PatchLbl.Location = new System.Drawing.Point(474, 9);
             this.PatchLbl.Name = "PatchLbl";
-            this.PatchLbl.Size = new System.Drawing.Size(67, 19);
+            this.PatchLbl.Size = new System.Drawing.Size(61, 23);
             this.PatchLbl.TabIndex = 5;
             this.PatchLbl.Text = "Patch: ";
             // 
             // HPLbl
             // 
             this.HPLbl.AutoSize = true;
-            this.HPLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.HPLbl.Location = new System.Drawing.Point(9, 199);
-            this.HPLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.HPLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.HPLbl.Location = new System.Drawing.Point(12, 238);
             this.HPLbl.Name = "HPLbl";
-            this.HPLbl.Size = new System.Drawing.Size(31, 19);
+            this.HPLbl.Size = new System.Drawing.Size(32, 23);
             this.HPLbl.TabIndex = 6;
             this.HPLbl.Text = "HP";
             // 
             // HPPerLvLbl
             // 
             this.HPPerLvLbl.AutoSize = true;
-            this.HPPerLvLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.HPPerLvLbl.Location = new System.Drawing.Point(9, 218);
-            this.HPPerLvLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.HPPerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.HPPerLvLbl.Location = new System.Drawing.Point(12, 262);
             this.HPPerLvLbl.Name = "HPPerLvLbl";
-            this.HPPerLvLbl.Size = new System.Drawing.Size(111, 19);
+            this.HPPerLvLbl.Size = new System.Drawing.Size(101, 23);
             this.HPPerLvLbl.TabIndex = 7;
             this.HPPerLvLbl.Text = "HP per level";
             // 
             // HPRegenPerLvLbl
             // 
             this.HPRegenPerLvLbl.AutoSize = true;
-            this.HPRegenPerLvLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.HPRegenPerLvLbl.Location = new System.Drawing.Point(9, 257);
-            this.HPRegenPerLvLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 10);
+            this.HPRegenPerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.HPRegenPerLvLbl.Location = new System.Drawing.Point(12, 309);
             this.HPRegenPerLvLbl.Name = "HPRegenPerLvLbl";
-            this.HPRegenPerLvLbl.Size = new System.Drawing.Size(165, 19);
+            this.HPRegenPerLvLbl.Size = new System.Drawing.Size(150, 23);
             this.HPRegenPerLvLbl.TabIndex = 9;
             this.HPRegenPerLvLbl.Text = "HP regen per level";
             // 
             // HPRegenLbl
             // 
             this.HPRegenLbl.AutoSize = true;
-            this.HPRegenLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.HPRegenLbl.Location = new System.Drawing.Point(9, 238);
-            this.HPRegenLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.HPRegenLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.HPRegenLbl.Location = new System.Drawing.Point(12, 285);
             this.HPRegenLbl.Name = "HPRegenLbl";
-            this.HPRegenLbl.Size = new System.Drawing.Size(85, 19);
+            this.HPRegenLbl.Size = new System.Drawing.Size(81, 23);
             this.HPRegenLbl.TabIndex = 8;
             this.HPRegenLbl.Text = "HP regen";
             // 
             // ManaLbl
             // 
             this.ManaLbl.AutoSize = true;
-            this.ManaLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.ManaLbl.Location = new System.Drawing.Point(9, 332);
-            this.ManaLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ManaLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ManaLbl.Location = new System.Drawing.Point(12, 392);
             this.ManaLbl.Name = "ManaLbl";
-            this.ManaLbl.Size = new System.Drawing.Size(55, 19);
+            this.ManaLbl.Size = new System.Drawing.Size(53, 23);
             this.ManaLbl.TabIndex = 11;
             this.ManaLbl.Text = "Mana";
             // 
             // TypeLbl
             // 
             this.TypeLbl.AutoSize = true;
-            this.TypeLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.TypeLbl.Location = new System.Drawing.Point(9, 313);
-            this.TypeLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.TypeLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TypeLbl.Location = new System.Drawing.Point(12, 368);
             this.TypeLbl.Name = "TypeLbl";
-            this.TypeLbl.Size = new System.Drawing.Size(50, 19);
+            this.TypeLbl.Size = new System.Drawing.Size(45, 23);
             this.TypeLbl.TabIndex = 10;
             this.TypeLbl.Text = "Type";
             // 
             // ManaRegenPerLvLbl
             // 
             this.ManaRegenPerLvLbl.AutoSize = true;
-            this.ManaRegenPerLvLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.ManaRegenPerLvLbl.Location = new System.Drawing.Point(9, 389);
-            this.ManaRegenPerLvLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 10);
+            this.ManaRegenPerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ManaRegenPerLvLbl.Location = new System.Drawing.Point(12, 462);
             this.ManaRegenPerLvLbl.Name = "ManaRegenPerLvLbl";
-            this.ManaRegenPerLvLbl.Size = new System.Drawing.Size(189, 19);
+            this.ManaRegenPerLvLbl.Size = new System.Drawing.Size(171, 23);
             this.ManaRegenPerLvLbl.TabIndex = 13;
             this.ManaRegenPerLvLbl.Text = "Mana regen per level";
             // 
             // ManaRegenLbl
             // 
             this.ManaRegenLbl.AutoSize = true;
-            this.ManaRegenLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.ManaRegenLbl.Location = new System.Drawing.Point(9, 370);
-            this.ManaRegenLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ManaRegenLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ManaRegenLbl.Location = new System.Drawing.Point(12, 438);
             this.ManaRegenLbl.Name = "ManaRegenLbl";
-            this.ManaRegenLbl.Size = new System.Drawing.Size(109, 19);
+            this.ManaRegenLbl.Size = new System.Drawing.Size(102, 23);
             this.ManaRegenLbl.TabIndex = 12;
             this.ManaRegenLbl.Text = "Mana regen";
             // 
             // MagicResistanceLbl
             // 
             this.MagicResistanceLbl.AutoSize = true;
-            this.MagicResistanceLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.MagicResistanceLbl.Location = new System.Drawing.Point(9, 653);
-            this.MagicResistanceLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.MagicResistanceLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.MagicResistanceLbl.Location = new System.Drawing.Point(12, 762);
             this.MagicResistanceLbl.Name = "MagicResistanceLbl";
-            this.MagicResistanceLbl.Size = new System.Drawing.Size(157, 19);
+            this.MagicResistanceLbl.Size = new System.Drawing.Size(136, 23);
             this.MagicResistanceLbl.TabIndex = 21;
             this.MagicResistanceLbl.Text = "Magic resistance";
             // 
             // ArmorPerLvLbl
             // 
             this.ArmorPerLvLbl.AutoSize = true;
-            this.ArmorPerLvLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.ArmorPerLvLbl.Location = new System.Drawing.Point(8, 597);
-            this.ArmorPerLvLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 10);
+            this.ArmorPerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ArmorPerLvLbl.Location = new System.Drawing.Point(12, 701);
             this.ArmorPerLvLbl.Name = "ArmorPerLvLbl";
-            this.ArmorPerLvLbl.Size = new System.Drawing.Size(141, 19);
+            this.ArmorPerLvLbl.Size = new System.Drawing.Size(127, 23);
             this.ArmorPerLvLbl.TabIndex = 20;
             this.ArmorPerLvLbl.Text = "Armor per level";
             // 
             // ArmorLbl
             // 
             this.ArmorLbl.AutoSize = true;
-            this.ArmorLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.ArmorLbl.Location = new System.Drawing.Point(9, 578);
-            this.ArmorLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ArmorLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ArmorLbl.Location = new System.Drawing.Point(12, 678);
             this.ArmorLbl.Name = "ArmorLbl";
-            this.ArmorLbl.Size = new System.Drawing.Size(62, 19);
+            this.ArmorLbl.Size = new System.Drawing.Size(58, 23);
             this.ArmorLbl.TabIndex = 19;
             this.ArmorLbl.Text = "Armor";
             // 
             // AtkSpdPerLvLbl
             // 
             this.AtkSpdPerLvLbl.AutoSize = true;
-            this.AtkSpdPerLvLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.AtkSpdPerLvLbl.Location = new System.Drawing.Point(9, 520);
-            this.AtkSpdPerLvLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 10);
+            this.AtkSpdPerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AtkSpdPerLvLbl.Location = new System.Drawing.Point(12, 617);
             this.AtkSpdPerLvLbl.Name = "AtkSpdPerLvLbl";
-            this.AtkSpdPerLvLbl.Size = new System.Drawing.Size(204, 19);
+            this.AtkSpdPerLvLbl.Size = new System.Drawing.Size(177, 23);
             this.AtkSpdPerLvLbl.TabIndex = 18;
             this.AtkSpdPerLvLbl.Text = "Attack speed per level";
             // 
             // AtkSpdLbl
             // 
             this.AtkSpdLbl.AutoSize = true;
-            this.AtkSpdLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.AtkSpdLbl.Location = new System.Drawing.Point(9, 500);
-            this.AtkSpdLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AtkSpdLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AtkSpdLbl.Location = new System.Drawing.Point(12, 594);
             this.AtkSpdLbl.Name = "AtkSpdLbl";
-            this.AtkSpdLbl.Size = new System.Drawing.Size(124, 19);
+            this.AtkSpdLbl.Size = new System.Drawing.Size(108, 23);
             this.AtkSpdLbl.TabIndex = 17;
             this.AtkSpdLbl.Text = "Attack speed";
             // 
             // AtkRangeLbl
             // 
             this.AtkRangeLbl.AutoSize = true;
-            this.AtkRangeLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.AtkRangeLbl.Location = new System.Drawing.Point(9, 483);
-            this.AtkRangeLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AtkRangeLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AtkRangeLbl.Location = new System.Drawing.Point(12, 570);
             this.AtkRangeLbl.Name = "AtkRangeLbl";
-            this.AtkRangeLbl.Size = new System.Drawing.Size(119, 19);
+            this.AtkRangeLbl.Size = new System.Drawing.Size(107, 23);
             this.AtkRangeLbl.TabIndex = 16;
             this.AtkRangeLbl.Text = "Attack range";
             // 
             // AtkDmgPerLvLbl
             // 
             this.AtkDmgPerLvLbl.AutoSize = true;
-            this.AtkDmgPerLvLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.AtkDmgPerLvLbl.Location = new System.Drawing.Point(9, 464);
-            this.AtkDmgPerLvLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AtkDmgPerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AtkDmgPerLvLbl.Location = new System.Drawing.Point(12, 547);
             this.AtkDmgPerLvLbl.Name = "AtkDmgPerLvLbl";
-            this.AtkDmgPerLvLbl.Size = new System.Drawing.Size(218, 19);
+            this.AtkDmgPerLvLbl.Size = new System.Drawing.Size(194, 23);
             this.AtkDmgPerLvLbl.TabIndex = 15;
             this.AtkDmgPerLvLbl.Text = "Attack damage per level";
             // 
             // AtkDmgLbl
             // 
             this.AtkDmgLbl.AutoSize = true;
-            this.AtkDmgLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.AtkDmgLbl.Location = new System.Drawing.Point(9, 445);
-            this.AtkDmgLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AtkDmgLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AtkDmgLbl.Location = new System.Drawing.Point(12, 523);
             this.AtkDmgLbl.Name = "AtkDmgLbl";
-            this.AtkDmgLbl.Size = new System.Drawing.Size(138, 19);
+            this.AtkDmgLbl.Size = new System.Drawing.Size(125, 23);
             this.AtkDmgLbl.TabIndex = 14;
             this.AtkDmgLbl.Text = "Attack damage";
             // 
             // RCoolLbl
             // 
             this.RCoolLbl.AutoSize = true;
-            this.RCoolLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.RCoolLbl.Location = new System.Drawing.Point(9, 814);
-            this.RCoolLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.RCoolLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RCoolLbl.Location = new System.Drawing.Point(12, 949);
             this.RCoolLbl.Name = "RCoolLbl";
-            this.RCoolLbl.Size = new System.Drawing.Size(108, 19);
+            this.RCoolLbl.Size = new System.Drawing.Size(99, 23);
             this.RCoolLbl.TabIndex = 28;
             this.RCoolLbl.Text = "R cooldown";
             // 
             // ECoolLbl
             // 
             this.ECoolLbl.AutoSize = true;
-            this.ECoolLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.ECoolLbl.Location = new System.Drawing.Point(9, 795);
-            this.ECoolLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ECoolLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ECoolLbl.Location = new System.Drawing.Point(12, 926);
             this.ECoolLbl.Name = "ECoolLbl";
-            this.ECoolLbl.Size = new System.Drawing.Size(106, 19);
+            this.ECoolLbl.Size = new System.Drawing.Size(98, 23);
             this.ECoolLbl.TabIndex = 27;
             this.ECoolLbl.Text = "E cooldown";
             // 
             // WCoolLbl
             // 
             this.WCoolLbl.AutoSize = true;
-            this.WCoolLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.WCoolLbl.Location = new System.Drawing.Point(9, 776);
-            this.WCoolLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.WCoolLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.WCoolLbl.Location = new System.Drawing.Point(12, 902);
             this.WCoolLbl.Name = "WCoolLbl";
-            this.WCoolLbl.Size = new System.Drawing.Size(113, 19);
+            this.WCoolLbl.Size = new System.Drawing.Size(105, 23);
             this.WCoolLbl.TabIndex = 26;
             this.WCoolLbl.Text = "W cooldown";
             // 
             // QCoolLbl
             // 
             this.QCoolLbl.AutoSize = true;
-            this.QCoolLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.QCoolLbl.Location = new System.Drawing.Point(9, 757);
-            this.QCoolLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.QCoolLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.QCoolLbl.Location = new System.Drawing.Point(12, 879);
             this.QCoolLbl.Name = "QCoolLbl";
-            this.QCoolLbl.Size = new System.Drawing.Size(109, 19);
+            this.QCoolLbl.Size = new System.Drawing.Size(102, 23);
             this.QCoolLbl.TabIndex = 25;
             this.QCoolLbl.Text = "Q cooldown";
             // 
             // MovementSpdLbl
             // 
             this.MovementSpdLbl.AutoSize = true;
-            this.MovementSpdLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.MovementSpdLbl.Location = new System.Drawing.Point(9, 701);
-            this.MovementSpdLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 10);
+            this.MovementSpdLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MovementSpdLbl.Location = new System.Drawing.Point(12, 821);
             this.MovementSpdLbl.Name = "MovementSpdLbl";
-            this.MovementSpdLbl.Size = new System.Drawing.Size(160, 19);
+            this.MovementSpdLbl.Size = new System.Drawing.Size(148, 23);
             this.MovementSpdLbl.TabIndex = 23;
             this.MovementSpdLbl.Text = "Movement speed";
             this.MovementSpdLbl.Click += new System.EventHandler(this.MovementSpdLbl_Click);
@@ -418,145 +390,123 @@ namespace ChampionComparatorGUI
             // MagicResistancePerLvLbl
             // 
             this.MagicResistancePerLvLbl.AutoSize = true;
-            this.MagicResistancePerLvLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.MagicResistancePerLvLbl.Location = new System.Drawing.Point(8, 672);
-            this.MagicResistancePerLvLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 10);
+            this.MagicResistancePerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.MagicResistancePerLvLbl.Location = new System.Drawing.Point(12, 785);
             this.MagicResistancePerLvLbl.Name = "MagicResistancePerLvLbl";
-            this.MagicResistancePerLvLbl.Size = new System.Drawing.Size(237, 19);
+            this.MagicResistancePerLvLbl.Size = new System.Drawing.Size(205, 23);
             this.MagicResistancePerLvLbl.TabIndex = 22;
             this.MagicResistancePerLvLbl.Text = "Magic resistance per level";
             // 
             // ManaPerLvLbl
             // 
             this.ManaPerLvLbl.AutoSize = true;
-            this.ManaPerLvLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.ManaPerLvLbl.Location = new System.Drawing.Point(9, 351);
-            this.ManaPerLvLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ManaPerLvLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ManaPerLvLbl.Location = new System.Drawing.Point(12, 415);
             this.ManaPerLvLbl.Name = "ManaPerLvLbl";
-            this.ManaPerLvLbl.Size = new System.Drawing.Size(135, 19);
+            this.ManaPerLvLbl.Size = new System.Drawing.Size(122, 23);
             this.ManaPerLvLbl.TabIndex = 30;
             this.ManaPerLvLbl.Text = "Mana per level";
             // 
             // HPStatsLbl
             // 
             this.HPStatsLbl.AutoSize = true;
-            this.HPStatsLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.HPStatsLbl.ForeColor = System.Drawing.Color.DeepPink;
-            this.HPStatsLbl.Location = new System.Drawing.Point(9, 172);
-            this.HPStatsLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.HPStatsLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.HPStatsLbl.Location = new System.Drawing.Point(12, 215);
             this.HPStatsLbl.Name = "HPStatsLbl";
-            this.HPStatsLbl.Size = new System.Drawing.Size(113, 27);
+            this.HPStatsLbl.Size = new System.Drawing.Size(75, 23);
             this.HPStatsLbl.TabIndex = 31;
             this.HPStatsLbl.Text = "HP stats";
             // 
             // ManaStatsLbl
             // 
             this.ManaStatsLbl.AutoSize = true;
-            this.ManaStatsLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.ManaStatsLbl.ForeColor = System.Drawing.Color.DeepPink;
-            this.ManaStatsLbl.Location = new System.Drawing.Point(9, 286);
-            this.ManaStatsLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ManaStatsLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ManaStatsLbl.Location = new System.Drawing.Point(12, 345);
             this.ManaStatsLbl.Name = "ManaStatsLbl";
-            this.ManaStatsLbl.Size = new System.Drawing.Size(147, 27);
+            this.ManaStatsLbl.Size = new System.Drawing.Size(96, 23);
             this.ManaStatsLbl.TabIndex = 32;
             this.ManaStatsLbl.Text = "Mana stats";
             // 
             // AtkStatsLbl
             // 
             this.AtkStatsLbl.AutoSize = true;
-            this.AtkStatsLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.AtkStatsLbl.ForeColor = System.Drawing.Color.DeepPink;
-            this.AtkStatsLbl.Location = new System.Drawing.Point(9, 418);
-            this.AtkStatsLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AtkStatsLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.AtkStatsLbl.Location = new System.Drawing.Point(12, 500);
             this.AtkStatsLbl.Name = "AtkStatsLbl";
-            this.AtkStatsLbl.Size = new System.Drawing.Size(163, 27);
+            this.AtkStatsLbl.Size = new System.Drawing.Size(105, 23);
             this.AtkStatsLbl.TabIndex = 33;
             this.AtkStatsLbl.Text = "Attack stats";
             // 
             // ArmorStatsLbl
             // 
             this.ArmorStatsLbl.AutoSize = true;
-            this.ArmorStatsLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.ArmorStatsLbl.ForeColor = System.Drawing.Color.DeepPink;
-            this.ArmorStatsLbl.Location = new System.Drawing.Point(9, 549);
-            this.ArmorStatsLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ArmorStatsLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ArmorStatsLbl.Location = new System.Drawing.Point(12, 655);
             this.ArmorStatsLbl.Name = "ArmorStatsLbl";
-            this.ArmorStatsLbl.Size = new System.Drawing.Size(157, 27);
+            this.ArmorStatsLbl.Size = new System.Drawing.Size(104, 23);
             this.ArmorStatsLbl.TabIndex = 34;
             this.ArmorStatsLbl.Text = "Armor stats";
             // 
             // MagicStatsLbl
             // 
             this.MagicStatsLbl.AutoSize = true;
-            this.MagicStatsLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.MagicStatsLbl.ForeColor = System.Drawing.Color.DeepPink;
-            this.MagicStatsLbl.Location = new System.Drawing.Point(9, 626);
-            this.MagicStatsLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.MagicStatsLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MagicStatsLbl.Location = new System.Drawing.Point(12, 739);
             this.MagicStatsLbl.Name = "MagicStatsLbl";
-            this.MagicStatsLbl.Size = new System.Drawing.Size(154, 27);
+            this.MagicStatsLbl.Size = new System.Drawing.Size(101, 23);
             this.MagicStatsLbl.TabIndex = 35;
             this.MagicStatsLbl.Text = "Magic stats";
             // 
             // CoolStatsLbl
             // 
             this.CoolStatsLbl.AutoSize = true;
-            this.CoolStatsLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.CoolStatsLbl.ForeColor = System.Drawing.Color.DeepPink;
-            this.CoolStatsLbl.Location = new System.Drawing.Point(8, 730);
-            this.CoolStatsLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.CoolStatsLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.CoolStatsLbl.Location = new System.Drawing.Point(12, 856);
             this.CoolStatsLbl.Name = "CoolStatsLbl";
-            this.CoolStatsLbl.Size = new System.Drawing.Size(202, 27);
+            this.CoolStatsLbl.Size = new System.Drawing.Size(133, 23);
             this.CoolStatsLbl.TabIndex = 36;
             this.CoolStatsLbl.Text = "Cooldown stats";
             // 
             // FirstChampResultsLbl
             // 
             this.FirstChampResultsLbl.AutoSize = true;
-            this.FirstChampResultsLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 15.75F, ((System.Drawing.FontStyle) ((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.FirstChampResultsLbl.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.FirstChampResultsLbl.Location = new System.Drawing.Point(257, 140);
-            this.FirstChampResultsLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.FirstChampResultsLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.FirstChampResultsLbl.Location = new System.Drawing.Point(254, 172);
             this.FirstChampResultsLbl.Name = "FirstChampResultsLbl";
-            this.FirstChampResultsLbl.Size = new System.Drawing.Size(79, 21);
+            this.FirstChampResultsLbl.Size = new System.Drawing.Size(86, 28);
             this.FirstChampResultsLbl.TabIndex = 37;
             this.FirstChampResultsLbl.Text = "Dummy";
-            this.FirstChampResultsLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.FirstChampResultsLbl.Visible = false;
             // 
             // SecondChampResultsLbl
             // 
             this.SecondChampResultsLbl.AutoSize = true;
-            this.SecondChampResultsLbl.Font = new System.Drawing.Font("Burbank Big Rg Bk", 15.75F, ((System.Drawing.FontStyle) ((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.SecondChampResultsLbl.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.SecondChampResultsLbl.Location = new System.Drawing.Point(394, 140);
-            this.SecondChampResultsLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.SecondChampResultsLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.SecondChampResultsLbl.Location = new System.Drawing.Point(436, 172);
             this.SecondChampResultsLbl.Name = "SecondChampResultsLbl";
-            this.SecondChampResultsLbl.Size = new System.Drawing.Size(79, 21);
+            this.SecondChampResultsLbl.Size = new System.Drawing.Size(86, 28);
             this.SecondChampResultsLbl.TabIndex = 39;
             this.SecondChampResultsLbl.Text = "Dummy";
-            this.SecondChampResultsLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.SecondChampResultsLbl.Visible = false;
             // 
             // Res46
             // 
             this.Res46.AutoSize = true;
-            this.Res46.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res46.Location = new System.Drawing.Point(394, 814);
-            this.Res46.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res46.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res46.Location = new System.Drawing.Point(436, 949);
             this.Res46.Name = "Res46";
-            this.Res46.Size = new System.Drawing.Size(37, 19);
+            this.Res46.Size = new System.Drawing.Size(39, 23);
             this.Res46.TabIndex = 40;
-            this.Res46.Text = "hp1";
+            this.Res46.Text = "hp2";
             this.Res46.Visible = false;
             // 
             // Res45
             // 
             this.Res45.AutoSize = true;
-            this.Res45.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res45.Location = new System.Drawing.Point(257, 814);
-            this.Res45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res45.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res45.Location = new System.Drawing.Point(254, 949);
             this.Res45.Name = "Res45";
-            this.Res45.Size = new System.Drawing.Size(37, 19);
+            this.Res45.Size = new System.Drawing.Size(39, 23);
             this.Res45.TabIndex = 41;
             this.Res45.Text = "hp1";
             this.Res45.Visible = false;
@@ -564,11 +514,10 @@ namespace ChampionComparatorGUI
             // Res44
             // 
             this.Res44.AutoSize = true;
-            this.Res44.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res44.Location = new System.Drawing.Point(394, 795);
-            this.Res44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res44.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res44.Location = new System.Drawing.Point(436, 926);
             this.Res44.Name = "Res44";
-            this.Res44.Size = new System.Drawing.Size(37, 19);
+            this.Res44.Size = new System.Drawing.Size(39, 23);
             this.Res44.TabIndex = 42;
             this.Res44.Text = "hp1";
             this.Res44.Visible = false;
@@ -576,11 +525,10 @@ namespace ChampionComparatorGUI
             // Res43
             // 
             this.Res43.AutoSize = true;
-            this.Res43.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res43.Location = new System.Drawing.Point(257, 795);
-            this.Res43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res43.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res43.Location = new System.Drawing.Point(254, 925);
             this.Res43.Name = "Res43";
-            this.Res43.Size = new System.Drawing.Size(37, 19);
+            this.Res43.Size = new System.Drawing.Size(39, 23);
             this.Res43.TabIndex = 43;
             this.Res43.Text = "hp1";
             this.Res43.Visible = false;
@@ -588,11 +536,10 @@ namespace ChampionComparatorGUI
             // Res42
             // 
             this.Res42.AutoSize = true;
-            this.Res42.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res42.Location = new System.Drawing.Point(394, 776);
-            this.Res42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res42.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res42.Location = new System.Drawing.Point(436, 902);
             this.Res42.Name = "Res42";
-            this.Res42.Size = new System.Drawing.Size(37, 19);
+            this.Res42.Size = new System.Drawing.Size(39, 23);
             this.Res42.TabIndex = 44;
             this.Res42.Text = "hp1";
             this.Res42.Visible = false;
@@ -600,11 +547,10 @@ namespace ChampionComparatorGUI
             // Res41
             // 
             this.Res41.AutoSize = true;
-            this.Res41.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res41.Location = new System.Drawing.Point(257, 776);
-            this.Res41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res41.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res41.Location = new System.Drawing.Point(254, 902);
             this.Res41.Name = "Res41";
-            this.Res41.Size = new System.Drawing.Size(37, 19);
+            this.Res41.Size = new System.Drawing.Size(39, 23);
             this.Res41.TabIndex = 45;
             this.Res41.Text = "hp1";
             this.Res41.Visible = false;
@@ -612,11 +558,10 @@ namespace ChampionComparatorGUI
             // Res40
             // 
             this.Res40.AutoSize = true;
-            this.Res40.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res40.Location = new System.Drawing.Point(394, 757);
-            this.Res40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res40.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res40.Location = new System.Drawing.Point(436, 879);
             this.Res40.Name = "Res40";
-            this.Res40.Size = new System.Drawing.Size(37, 19);
+            this.Res40.Size = new System.Drawing.Size(39, 23);
             this.Res40.TabIndex = 46;
             this.Res40.Text = "hp1";
             this.Res40.Visible = false;
@@ -624,11 +569,10 @@ namespace ChampionComparatorGUI
             // Res39
             // 
             this.Res39.AutoSize = true;
-            this.Res39.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res39.Location = new System.Drawing.Point(257, 757);
-            this.Res39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res39.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res39.Location = new System.Drawing.Point(254, 879);
             this.Res39.Name = "Res39";
-            this.Res39.Size = new System.Drawing.Size(37, 19);
+            this.Res39.Size = new System.Drawing.Size(39, 23);
             this.Res39.TabIndex = 47;
             this.Res39.Text = "hp1";
             this.Res39.Visible = false;
@@ -636,12 +580,10 @@ namespace ChampionComparatorGUI
             // Res38
             // 
             this.Res38.AutoSize = true;
-            this.Res38.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res38.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res38.Location = new System.Drawing.Point(394, 701);
-            this.Res38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res38.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res38.Location = new System.Drawing.Point(436, 821);
             this.Res38.Name = "Res38";
-            this.Res38.Size = new System.Drawing.Size(37, 19);
+            this.Res38.Size = new System.Drawing.Size(39, 23);
             this.Res38.TabIndex = 48;
             this.Res38.Text = "hp1";
             this.Res38.Visible = false;
@@ -649,12 +591,10 @@ namespace ChampionComparatorGUI
             // Res37
             // 
             this.Res37.AutoSize = true;
-            this.Res37.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res37.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res37.Location = new System.Drawing.Point(257, 701);
-            this.Res37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res37.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res37.Location = new System.Drawing.Point(254, 821);
             this.Res37.Name = "Res37";
-            this.Res37.Size = new System.Drawing.Size(37, 19);
+            this.Res37.Size = new System.Drawing.Size(39, 23);
             this.Res37.TabIndex = 49;
             this.Res37.Text = "hp1";
             this.Res37.Visible = false;
@@ -662,11 +602,10 @@ namespace ChampionComparatorGUI
             // Res36
             // 
             this.Res36.AutoSize = true;
-            this.Res36.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res36.Location = new System.Drawing.Point(394, 672);
-            this.Res36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res36.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res36.Location = new System.Drawing.Point(436, 785);
             this.Res36.Name = "Res36";
-            this.Res36.Size = new System.Drawing.Size(37, 19);
+            this.Res36.Size = new System.Drawing.Size(39, 23);
             this.Res36.TabIndex = 50;
             this.Res36.Text = "hp1";
             this.Res36.Visible = false;
@@ -674,11 +613,10 @@ namespace ChampionComparatorGUI
             // Res35
             // 
             this.Res35.AutoSize = true;
-            this.Res35.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res35.Location = new System.Drawing.Point(257, 672);
-            this.Res35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res35.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res35.Location = new System.Drawing.Point(254, 785);
             this.Res35.Name = "Res35";
-            this.Res35.Size = new System.Drawing.Size(37, 19);
+            this.Res35.Size = new System.Drawing.Size(39, 23);
             this.Res35.TabIndex = 51;
             this.Res35.Text = "hp1";
             this.Res35.Visible = false;
@@ -686,12 +624,10 @@ namespace ChampionComparatorGUI
             // Res34
             // 
             this.Res34.AutoSize = true;
-            this.Res34.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res34.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res34.Location = new System.Drawing.Point(394, 653);
-            this.Res34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res34.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res34.Location = new System.Drawing.Point(436, 762);
             this.Res34.Name = "Res34";
-            this.Res34.Size = new System.Drawing.Size(37, 19);
+            this.Res34.Size = new System.Drawing.Size(39, 23);
             this.Res34.TabIndex = 52;
             this.Res34.Text = "hp1";
             this.Res34.Visible = false;
@@ -699,12 +635,10 @@ namespace ChampionComparatorGUI
             // Res33
             // 
             this.Res33.AutoSize = true;
-            this.Res33.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res33.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res33.Location = new System.Drawing.Point(257, 653);
-            this.Res33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res33.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res33.Location = new System.Drawing.Point(254, 762);
             this.Res33.Name = "Res33";
-            this.Res33.Size = new System.Drawing.Size(37, 19);
+            this.Res33.Size = new System.Drawing.Size(39, 23);
             this.Res33.TabIndex = 53;
             this.Res33.Text = "hp1";
             this.Res33.Visible = false;
@@ -712,11 +646,10 @@ namespace ChampionComparatorGUI
             // Res32
             // 
             this.Res32.AutoSize = true;
-            this.Res32.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res32.Location = new System.Drawing.Point(394, 597);
-            this.Res32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res32.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res32.Location = new System.Drawing.Point(436, 701);
             this.Res32.Name = "Res32";
-            this.Res32.Size = new System.Drawing.Size(37, 19);
+            this.Res32.Size = new System.Drawing.Size(39, 23);
             this.Res32.TabIndex = 54;
             this.Res32.Text = "hp1";
             this.Res32.Visible = false;
@@ -724,11 +657,10 @@ namespace ChampionComparatorGUI
             // Res31
             // 
             this.Res31.AutoSize = true;
-            this.Res31.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res31.Location = new System.Drawing.Point(257, 597);
-            this.Res31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res31.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res31.Location = new System.Drawing.Point(254, 701);
             this.Res31.Name = "Res31";
-            this.Res31.Size = new System.Drawing.Size(37, 19);
+            this.Res31.Size = new System.Drawing.Size(39, 23);
             this.Res31.TabIndex = 55;
             this.Res31.Text = "hp1";
             this.Res31.Visible = false;
@@ -736,12 +668,10 @@ namespace ChampionComparatorGUI
             // Res30
             // 
             this.Res30.AutoSize = true;
-            this.Res30.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res30.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res30.Location = new System.Drawing.Point(394, 578);
-            this.Res30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res30.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res30.Location = new System.Drawing.Point(436, 678);
             this.Res30.Name = "Res30";
-            this.Res30.Size = new System.Drawing.Size(37, 19);
+            this.Res30.Size = new System.Drawing.Size(39, 23);
             this.Res30.TabIndex = 56;
             this.Res30.Text = "hp1";
             this.Res30.Visible = false;
@@ -749,12 +679,10 @@ namespace ChampionComparatorGUI
             // Res29
             // 
             this.Res29.AutoSize = true;
-            this.Res29.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res29.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res29.Location = new System.Drawing.Point(257, 578);
-            this.Res29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res29.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res29.Location = new System.Drawing.Point(254, 678);
             this.Res29.Name = "Res29";
-            this.Res29.Size = new System.Drawing.Size(37, 19);
+            this.Res29.Size = new System.Drawing.Size(39, 23);
             this.Res29.TabIndex = 57;
             this.Res29.Text = "hp1";
             this.Res29.Visible = false;
@@ -762,11 +690,10 @@ namespace ChampionComparatorGUI
             // Res28
             // 
             this.Res28.AutoSize = true;
-            this.Res28.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res28.Location = new System.Drawing.Point(394, 520);
-            this.Res28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res28.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res28.Location = new System.Drawing.Point(436, 617);
             this.Res28.Name = "Res28";
-            this.Res28.Size = new System.Drawing.Size(37, 19);
+            this.Res28.Size = new System.Drawing.Size(39, 23);
             this.Res28.TabIndex = 58;
             this.Res28.Text = "hp1";
             this.Res28.Visible = false;
@@ -774,11 +701,10 @@ namespace ChampionComparatorGUI
             // Res27
             // 
             this.Res27.AutoSize = true;
-            this.Res27.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res27.Location = new System.Drawing.Point(257, 520);
-            this.Res27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res27.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res27.Location = new System.Drawing.Point(254, 617);
             this.Res27.Name = "Res27";
-            this.Res27.Size = new System.Drawing.Size(37, 19);
+            this.Res27.Size = new System.Drawing.Size(39, 23);
             this.Res27.TabIndex = 59;
             this.Res27.Text = "hp1";
             this.Res27.Visible = false;
@@ -786,12 +712,10 @@ namespace ChampionComparatorGUI
             // Res26
             // 
             this.Res26.AutoSize = true;
-            this.Res26.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res26.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res26.Location = new System.Drawing.Point(394, 500);
-            this.Res26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res26.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res26.Location = new System.Drawing.Point(436, 594);
             this.Res26.Name = "Res26";
-            this.Res26.Size = new System.Drawing.Size(37, 19);
+            this.Res26.Size = new System.Drawing.Size(39, 23);
             this.Res26.TabIndex = 60;
             this.Res26.Text = "hp1";
             this.Res26.Visible = false;
@@ -799,12 +723,10 @@ namespace ChampionComparatorGUI
             // Res25
             // 
             this.Res25.AutoSize = true;
-            this.Res25.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res25.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res25.Location = new System.Drawing.Point(257, 500);
-            this.Res25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res25.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res25.Location = new System.Drawing.Point(254, 594);
             this.Res25.Name = "Res25";
-            this.Res25.Size = new System.Drawing.Size(37, 19);
+            this.Res25.Size = new System.Drawing.Size(39, 23);
             this.Res25.TabIndex = 61;
             this.Res25.Text = "hp1";
             this.Res25.Visible = false;
@@ -812,12 +734,10 @@ namespace ChampionComparatorGUI
             // Res24
             // 
             this.Res24.AutoSize = true;
-            this.Res24.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res24.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res24.Location = new System.Drawing.Point(394, 483);
-            this.Res24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res24.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res24.Location = new System.Drawing.Point(436, 569);
             this.Res24.Name = "Res24";
-            this.Res24.Size = new System.Drawing.Size(37, 19);
+            this.Res24.Size = new System.Drawing.Size(39, 23);
             this.Res24.TabIndex = 62;
             this.Res24.Text = "hp1";
             this.Res24.Visible = false;
@@ -825,12 +745,10 @@ namespace ChampionComparatorGUI
             // Res23
             // 
             this.Res23.AutoSize = true;
-            this.Res23.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res23.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res23.Location = new System.Drawing.Point(257, 483);
-            this.Res23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res23.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res23.Location = new System.Drawing.Point(254, 569);
             this.Res23.Name = "Res23";
-            this.Res23.Size = new System.Drawing.Size(37, 19);
+            this.Res23.Size = new System.Drawing.Size(39, 23);
             this.Res23.TabIndex = 63;
             this.Res23.Text = "hp1";
             this.Res23.Visible = false;
@@ -838,12 +756,10 @@ namespace ChampionComparatorGUI
             // Res1
             // 
             this.Res1.AutoSize = true;
-            this.Res1.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res1.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res1.Location = new System.Drawing.Point(257, 199);
-            this.Res1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res1.Location = new System.Drawing.Point(254, 238);
             this.Res1.Name = "Res1";
-            this.Res1.Size = new System.Drawing.Size(37, 19);
+            this.Res1.Size = new System.Drawing.Size(39, 23);
             this.Res1.TabIndex = 85;
             this.Res1.Text = "hp1";
             this.Res1.Visible = false;
@@ -851,12 +767,10 @@ namespace ChampionComparatorGUI
             // Res2
             // 
             this.Res2.AutoSize = true;
-            this.Res2.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res2.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res2.Location = new System.Drawing.Point(394, 199);
-            this.Res2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res2.Location = new System.Drawing.Point(436, 238);
             this.Res2.Name = "Res2";
-            this.Res2.Size = new System.Drawing.Size(37, 19);
+            this.Res2.Size = new System.Drawing.Size(39, 23);
             this.Res2.TabIndex = 84;
             this.Res2.Text = "hp1";
             this.Res2.Visible = false;
@@ -864,11 +778,10 @@ namespace ChampionComparatorGUI
             // Res3
             // 
             this.Res3.AutoSize = true;
-            this.Res3.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res3.Location = new System.Drawing.Point(257, 222);
-            this.Res3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res3.Location = new System.Drawing.Point(254, 262);
             this.Res3.Name = "Res3";
-            this.Res3.Size = new System.Drawing.Size(37, 19);
+            this.Res3.Size = new System.Drawing.Size(39, 23);
             this.Res3.TabIndex = 83;
             this.Res3.Text = "hp1";
             this.Res3.Visible = false;
@@ -876,11 +789,10 @@ namespace ChampionComparatorGUI
             // Res4
             // 
             this.Res4.AutoSize = true;
-            this.Res4.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res4.Location = new System.Drawing.Point(394, 222);
-            this.Res4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res4.Location = new System.Drawing.Point(436, 261);
             this.Res4.Name = "Res4";
-            this.Res4.Size = new System.Drawing.Size(37, 19);
+            this.Res4.Size = new System.Drawing.Size(39, 23);
             this.Res4.TabIndex = 82;
             this.Res4.Text = "hp1";
             this.Res4.Visible = false;
@@ -888,11 +800,10 @@ namespace ChampionComparatorGUI
             // Res5
             // 
             this.Res5.AutoSize = true;
-            this.Res5.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res5.Location = new System.Drawing.Point(257, 241);
-            this.Res5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res5.Location = new System.Drawing.Point(254, 285);
             this.Res5.Name = "Res5";
-            this.Res5.Size = new System.Drawing.Size(37, 19);
+            this.Res5.Size = new System.Drawing.Size(39, 23);
             this.Res5.TabIndex = 81;
             this.Res5.Text = "hp1";
             this.Res5.Visible = false;
@@ -900,11 +811,10 @@ namespace ChampionComparatorGUI
             // Res6
             // 
             this.Res6.AutoSize = true;
-            this.Res6.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res6.Location = new System.Drawing.Point(394, 241);
-            this.Res6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res6.Location = new System.Drawing.Point(436, 284);
             this.Res6.Name = "Res6";
-            this.Res6.Size = new System.Drawing.Size(37, 19);
+            this.Res6.Size = new System.Drawing.Size(39, 23);
             this.Res6.TabIndex = 80;
             this.Res6.Text = "hp1";
             this.Res6.Visible = false;
@@ -912,11 +822,10 @@ namespace ChampionComparatorGUI
             // Res7
             // 
             this.Res7.AutoSize = true;
-            this.Res7.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res7.Location = new System.Drawing.Point(257, 260);
-            this.Res7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res7.Location = new System.Drawing.Point(254, 308);
             this.Res7.Name = "Res7";
-            this.Res7.Size = new System.Drawing.Size(37, 19);
+            this.Res7.Size = new System.Drawing.Size(39, 23);
             this.Res7.TabIndex = 79;
             this.Res7.Text = "hp1";
             this.Res7.Visible = false;
@@ -924,11 +833,10 @@ namespace ChampionComparatorGUI
             // Res8
             // 
             this.Res8.AutoSize = true;
-            this.Res8.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res8.Location = new System.Drawing.Point(394, 260);
-            this.Res8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res8.Location = new System.Drawing.Point(436, 309);
             this.Res8.Name = "Res8";
-            this.Res8.Size = new System.Drawing.Size(37, 19);
+            this.Res8.Size = new System.Drawing.Size(39, 23);
             this.Res8.TabIndex = 78;
             this.Res8.Text = "hp1";
             this.Res8.Visible = false;
@@ -936,12 +844,10 @@ namespace ChampionComparatorGUI
             // Res9
             // 
             this.Res9.AutoSize = true;
-            this.Res9.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res9.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res9.Location = new System.Drawing.Point(257, 313);
-            this.Res9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res9.Location = new System.Drawing.Point(254, 368);
             this.Res9.Name = "Res9";
-            this.Res9.Size = new System.Drawing.Size(37, 19);
+            this.Res9.Size = new System.Drawing.Size(39, 23);
             this.Res9.TabIndex = 77;
             this.Res9.Text = "hp1";
             this.Res9.Visible = false;
@@ -949,12 +855,10 @@ namespace ChampionComparatorGUI
             // Res10
             // 
             this.Res10.AutoSize = true;
-            this.Res10.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res10.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res10.Location = new System.Drawing.Point(394, 313);
-            this.Res10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res10.Location = new System.Drawing.Point(436, 369);
             this.Res10.Name = "Res10";
-            this.Res10.Size = new System.Drawing.Size(37, 19);
+            this.Res10.Size = new System.Drawing.Size(39, 23);
             this.Res10.TabIndex = 76;
             this.Res10.Text = "hp1";
             this.Res10.Visible = false;
@@ -962,12 +866,10 @@ namespace ChampionComparatorGUI
             // Res11
             // 
             this.Res11.AutoSize = true;
-            this.Res11.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res11.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res11.Location = new System.Drawing.Point(257, 332);
-            this.Res11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res11.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res11.Location = new System.Drawing.Point(254, 392);
             this.Res11.Name = "Res11";
-            this.Res11.Size = new System.Drawing.Size(37, 19);
+            this.Res11.Size = new System.Drawing.Size(39, 23);
             this.Res11.TabIndex = 75;
             this.Res11.Text = "hp1";
             this.Res11.Visible = false;
@@ -975,12 +877,10 @@ namespace ChampionComparatorGUI
             // Res12
             // 
             this.Res12.AutoSize = true;
-            this.Res12.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res12.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res12.Location = new System.Drawing.Point(394, 332);
-            this.Res12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res12.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res12.Location = new System.Drawing.Point(436, 392);
             this.Res12.Name = "Res12";
-            this.Res12.Size = new System.Drawing.Size(37, 19);
+            this.Res12.Size = new System.Drawing.Size(39, 23);
             this.Res12.TabIndex = 74;
             this.Res12.Text = "hp1";
             this.Res12.Visible = false;
@@ -988,11 +888,10 @@ namespace ChampionComparatorGUI
             // Res13
             // 
             this.Res13.AutoSize = true;
-            this.Res13.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res13.Location = new System.Drawing.Point(257, 351);
-            this.Res13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res13.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res13.Location = new System.Drawing.Point(254, 415);
             this.Res13.Name = "Res13";
-            this.Res13.Size = new System.Drawing.Size(37, 19);
+            this.Res13.Size = new System.Drawing.Size(39, 23);
             this.Res13.TabIndex = 73;
             this.Res13.Text = "hp1";
             this.Res13.Visible = false;
@@ -1000,11 +899,10 @@ namespace ChampionComparatorGUI
             // Res14
             // 
             this.Res14.AutoSize = true;
-            this.Res14.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res14.Location = new System.Drawing.Point(394, 351);
-            this.Res14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res14.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res14.Location = new System.Drawing.Point(436, 415);
             this.Res14.Name = "Res14";
-            this.Res14.Size = new System.Drawing.Size(37, 19);
+            this.Res14.Size = new System.Drawing.Size(39, 23);
             this.Res14.TabIndex = 72;
             this.Res14.Text = "hp1";
             this.Res14.Visible = false;
@@ -1012,11 +910,10 @@ namespace ChampionComparatorGUI
             // Res15
             // 
             this.Res15.AutoSize = true;
-            this.Res15.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res15.Location = new System.Drawing.Point(257, 370);
-            this.Res15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res15.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res15.Location = new System.Drawing.Point(254, 438);
             this.Res15.Name = "Res15";
-            this.Res15.Size = new System.Drawing.Size(37, 19);
+            this.Res15.Size = new System.Drawing.Size(39, 23);
             this.Res15.TabIndex = 71;
             this.Res15.Text = "hp1";
             this.Res15.Visible = false;
@@ -1024,11 +921,10 @@ namespace ChampionComparatorGUI
             // Res16
             // 
             this.Res16.AutoSize = true;
-            this.Res16.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res16.Location = new System.Drawing.Point(394, 370);
-            this.Res16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res16.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res16.Location = new System.Drawing.Point(436, 438);
             this.Res16.Name = "Res16";
-            this.Res16.Size = new System.Drawing.Size(37, 19);
+            this.Res16.Size = new System.Drawing.Size(39, 23);
             this.Res16.TabIndex = 70;
             this.Res16.Text = "hp1";
             this.Res16.Visible = false;
@@ -1036,11 +932,10 @@ namespace ChampionComparatorGUI
             // Res17
             // 
             this.Res17.AutoSize = true;
-            this.Res17.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res17.Location = new System.Drawing.Point(257, 389);
-            this.Res17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res17.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res17.Location = new System.Drawing.Point(254, 462);
             this.Res17.Name = "Res17";
-            this.Res17.Size = new System.Drawing.Size(37, 19);
+            this.Res17.Size = new System.Drawing.Size(39, 23);
             this.Res17.TabIndex = 69;
             this.Res17.Text = "hp1";
             this.Res17.Visible = false;
@@ -1048,11 +943,10 @@ namespace ChampionComparatorGUI
             // Res18
             // 
             this.Res18.AutoSize = true;
-            this.Res18.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res18.Location = new System.Drawing.Point(394, 389);
-            this.Res18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res18.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res18.Location = new System.Drawing.Point(436, 462);
             this.Res18.Name = "Res18";
-            this.Res18.Size = new System.Drawing.Size(37, 19);
+            this.Res18.Size = new System.Drawing.Size(39, 23);
             this.Res18.TabIndex = 68;
             this.Res18.Text = "hp1";
             this.Res18.Visible = false;
@@ -1060,12 +954,10 @@ namespace ChampionComparatorGUI
             // Res19
             // 
             this.Res19.AutoSize = true;
-            this.Res19.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res19.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res19.Location = new System.Drawing.Point(257, 445);
-            this.Res19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res19.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res19.Location = new System.Drawing.Point(254, 523);
             this.Res19.Name = "Res19";
-            this.Res19.Size = new System.Drawing.Size(37, 19);
+            this.Res19.Size = new System.Drawing.Size(39, 23);
             this.Res19.TabIndex = 67;
             this.Res19.Text = "hp1";
             this.Res19.Visible = false;
@@ -1073,12 +965,10 @@ namespace ChampionComparatorGUI
             // Res20
             // 
             this.Res20.AutoSize = true;
-            this.Res20.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res20.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (167)))), ((int) (((byte) (146)))), ((int) (((byte) (221)))));
-            this.Res20.Location = new System.Drawing.Point(394, 445);
-            this.Res20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res20.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res20.Location = new System.Drawing.Point(436, 523);
             this.Res20.Name = "Res20";
-            this.Res20.Size = new System.Drawing.Size(37, 19);
+            this.Res20.Size = new System.Drawing.Size(39, 23);
             this.Res20.TabIndex = 66;
             this.Res20.Text = "hp1";
             this.Res20.Visible = false;
@@ -1086,11 +976,10 @@ namespace ChampionComparatorGUI
             // Res21
             // 
             this.Res21.AutoSize = true;
-            this.Res21.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res21.Location = new System.Drawing.Point(257, 464);
-            this.Res21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res21.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res21.Location = new System.Drawing.Point(254, 546);
             this.Res21.Name = "Res21";
-            this.Res21.Size = new System.Drawing.Size(37, 19);
+            this.Res21.Size = new System.Drawing.Size(39, 23);
             this.Res21.TabIndex = 65;
             this.Res21.Text = "hp1";
             this.Res21.Visible = false;
@@ -1098,22 +987,20 @@ namespace ChampionComparatorGUI
             // Res22
             // 
             this.Res22.AutoSize = true;
-            this.Res22.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Res22.Location = new System.Drawing.Point(394, 464);
-            this.Res22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Res22.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Res22.Location = new System.Drawing.Point(436, 546);
             this.Res22.Name = "Res22";
-            this.Res22.Size = new System.Drawing.Size(37, 19);
+            this.Res22.Size = new System.Drawing.Size(39, 23);
             this.Res22.TabIndex = 64;
             this.Res22.Text = "hp1";
             this.Res22.Visible = false;
             // 
             // DarkThemeBtn
             // 
-            this.DarkThemeBtn.Font = new System.Drawing.Font("Burbank Big Rg Bk", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.DarkThemeBtn.Location = new System.Drawing.Point(475, 6);
-            this.DarkThemeBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.DarkThemeBtn.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DarkThemeBtn.Location = new System.Drawing.Point(637, 9);
             this.DarkThemeBtn.Name = "DarkThemeBtn";
-            this.DarkThemeBtn.Size = new System.Drawing.Size(113, 26);
+            this.DarkThemeBtn.Size = new System.Drawing.Size(139, 34);
             this.DarkThemeBtn.TabIndex = 86;
             this.DarkThemeBtn.Text = "Dark theme";
             this.DarkThemeBtn.UseVisualStyleBackColor = true;
@@ -1121,30 +1008,27 @@ namespace ChampionComparatorGUI
             // 
             // FirstChampPic
             // 
-            this.FirstChampPic.Location = new System.Drawing.Point(257, 78);
-            this.FirstChampPic.Margin = new System.Windows.Forms.Padding(2);
+            this.FirstChampPic.Location = new System.Drawing.Point(254, 89);
             this.FirstChampPic.Name = "FirstChampPic";
-            this.FirstChampPic.Size = new System.Drawing.Size(60, 60);
+            this.FirstChampPic.Size = new System.Drawing.Size(80, 80);
             this.FirstChampPic.TabIndex = 87;
             this.FirstChampPic.TabStop = false;
             this.FirstChampPic.Visible = false;
             // 
             // SecondChampPic
             // 
-            this.SecondChampPic.Location = new System.Drawing.Point(394, 78);
-            this.SecondChampPic.Margin = new System.Windows.Forms.Padding(2);
+            this.SecondChampPic.Location = new System.Drawing.Point(436, 89);
             this.SecondChampPic.Name = "SecondChampPic";
-            this.SecondChampPic.Size = new System.Drawing.Size(60, 60);
+            this.SecondChampPic.Size = new System.Drawing.Size(80, 80);
             this.SecondChampPic.TabIndex = 88;
             this.SecondChampPic.TabStop = false;
             this.SecondChampPic.Visible = false;
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(599, 834);
+            this.ClientSize = new System.Drawing.Size(799, 987);
             this.Controls.Add(this.SecondChampPic);
             this.Controls.Add(this.FirstChampPic);
             this.Controls.Add(this.DarkThemeBtn);
@@ -1231,17 +1115,13 @@ namespace ChampionComparatorGUI
             this.Controls.Add(this.SecondChampTxt);
             this.Controls.Add(this.FirstChampLbl);
             this.Controls.Add(this.FirstChampTxt);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MaximizeBox = false;
             this.Name = "Main";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "League Of Legends Champions Comparator GUI";
-            ((System.ComponentModel.ISupportInitialize) (this.FirstChampPic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize) (this.SecondChampPic)).EndInit();
+            this.Text = "ChampionComparatorGUI v3";
+            ((System.ComponentModel.ISupportInitialize)(this.FirstChampPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SecondChampPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion
