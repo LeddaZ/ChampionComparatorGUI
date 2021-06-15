@@ -267,6 +267,8 @@ namespace ChampionComparatorGUI
 					Res37.ForeColor = Color.Red;
 				}
 			}
+			FirstChampTxt.Text = "";
+			SecondChampTxt.Text = "";
 		}
 		private void DarkThemeBtn_Click(object sender, EventArgs e)
 		{
@@ -447,6 +449,7 @@ namespace ChampionComparatorGUI
 			// Set custom font "Karla" from Google Fonts
 			foreach (Control c in Controls)
             {
+				//if (c.Name.Equals("FirstChampLbl"))
 				Extra.UseCustomFont("Karla", 13, c);
 			}
 
