@@ -20,7 +20,7 @@ namespace ChampionComparatorGUI
 		public static void UseCustomFont(string name, int size, Control control)
 		{
 			PrivateFontCollection modernFont = new();
-			modernFont.AddFontFile(@"..\..\..\Resources\Karla-VariableFont_wght.ttf");
+			modernFont.AddFontFile(@".\Resources\Karla-VariableFont_wght.ttf");
 			control.Font = new Font(modernFont.Families[0], size);
 		}
 
