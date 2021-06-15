@@ -449,12 +449,12 @@ namespace ChampionComparatorGUI
 			// Set custom font "Karla" from Google Fonts
 			foreach (Control c in Controls)
             {
-				//if (c.Name.Equals("FirstChampLbl"))
 				Extra.UseCustomFont("Karla", 13, c);
 			}
 
 			// Set the latest patch number on the corresponding label
 			PatchLbl.Text += Extra.GetPatch();
 		}
+
     }
 }
