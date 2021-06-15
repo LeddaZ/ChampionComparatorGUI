@@ -8,30 +8,24 @@ namespace ChampionComparatorGUI
 
     public static class Extra
 	{
-		public static string patch;
+		private static string _patch;
 		public static string GetPatch()
 		{
 			// Returns the latest patch number
-			patch = new StreamReader(WebRequest.Create("https://ddragon.leagueoflegends.com/api/versions.json").GetResponse().GetResponseStream()).ReadToEnd().Split(',')[0].TrimStart('[').TrimStart('"').TrimEnd('"');
-			return patch;
+			_patch = new StreamReader(WebRequest.Create("https://ddragon.leagueoflegends.com/api/versions.json").GetResponse().GetResponseStream()!).ReadToEnd().Split(',')[0].TrimStart('[').TrimStart('"').TrimEnd('"');
+			return _patch;
 		}
 
     }
 
     static class Program
     {
-		/* Ciao Netu
-		 *       /\ I used his code */
-		/// <summary>
-		///  The main entry point for the application.
-		/// </summary>
-		[STAThread]
-		static void Main()
-			{
-				Application.SetHighDpiMode(HighDpiMode.SystemAware);
-				Application.EnableVisualStyles();
-				Application.SetCompatibleTextRenderingDefault(false);
-				Application.Run(new Main());
-			}
-		}
+	    [STAThread] static void Main()
+	    {
+		    Application.SetHighDpiMode(HighDpiMode.SystemAware);
+		    Application.EnableVisualStyles(); 
+			Application.SetCompatibleTextRenderingDefault(false);
+			Application.Run(new Main());
+	    }
 	}
+}
