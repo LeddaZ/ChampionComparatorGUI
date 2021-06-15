@@ -16,9 +16,7 @@ namespace ChampionComparatorGUI
 
 		public Main()
 		{
-			// Set the latest patch number on the corresponding label
 			InitializeComponent();
-			PatchLbl.Text += Extra.GetPatch();
 		}
 
 		public void BtnConfirm_Click(object sender, EventArgs e)
@@ -273,7 +271,7 @@ namespace ChampionComparatorGUI
 		private void DarkThemeBtn_Click(object sender, EventArgs e)
 		{
 			// Dark theme, a.k.a. the only good theme
-			if (DarkThemeBtn.Text == @"Dark theme")
+			if (DarkThemeBtn.Text.Equals("Dark theme"))
 			{
 				this.BackColor = Color.FromArgb(19, 20, 20);
 				PatchLbl.ForeColor = Color.White;
@@ -351,7 +349,7 @@ namespace ChampionComparatorGUI
 				Res45.ForeColor = Color.White;
 				Res46.ForeColor = Color.White;
 				
-				DarkThemeBtn.Text = @"Light theme";
+				DarkThemeBtn.Text = "Light theme";
 			}
 			else
 			{
@@ -430,10 +428,11 @@ namespace ChampionComparatorGUI
 				RCoolLbl.ForeColor = Color.Black;
 				Res45.ForeColor = Color.Black;
 				Res46.ForeColor = Color.Black;
-				DarkThemeBtn.Text = @"Dark theme";
+				DarkThemeBtn.Text = "Dark theme";
 			}
 		}
 		// Ledda did this. Don't know what does.
+		// It opens that link when you click on "movement speed" 10 times
 		private void MovementSpdLbl_Click(object sender, EventArgs e)
 		{
 			_z++;
@@ -442,5 +441,17 @@ namespace ChampionComparatorGUI
 				Process.Start(new ProcessStartInfo("https://raw.githubusercontent.com/LeddaZ/LeddaZ.github.io/master/assets/heh.gif") {UseShellExecute = true});
 			}
 		}
-	}
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+			// Set custom font "Karla" from Google Fonts
+			foreach (Control c in Controls)
+            {
+				Extra.UseCustomFont("Karla", 13, c);
+			}
+
+			// Set the latest patch number on the corresponding label
+			PatchLbl.Text += Extra.GetPatch();
+		}
+    }
 }
