@@ -121,4 +121,7 @@
   <data name="font" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Karla-VariableFont_wght.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Assets" xml:space="preserve">
+    <value>{C:\Users\Mario\Desktop\ChampionComparatorGUI\Resources\Assets\Champions}</value>
+  </data>
 </root>
